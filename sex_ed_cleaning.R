@@ -3,7 +3,7 @@
 library(readxl)
 library(tidyverse)
 
-sex_ed <- read_excel("sex_ed.xlsx")
+sex_ed <- read_excel("~/Desktop/Gov 50/Final_Project/Final_Project/Raw_data/sex_ed.xlsx")
 
 sex_education <- sex_ed %>%
   filter(Indicator == "5.6.2") %>%
