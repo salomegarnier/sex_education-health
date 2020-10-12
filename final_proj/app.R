@@ -95,7 +95,9 @@ ui <- fluidPage(
              tabPanel("About",
                       h3("This is an About Me! My name is Salomé"),
                       p("Here is a link to my final project repo: https://github.com/salomegarnier/Final_Project.git."),
-                      p("The data I have so far is from UN Stats, WHO, and IHME. You can find it in the raw data folder.")
+                      p("The data I have so far is from UN Stats, WHO, and IHME. You can find it in the raw data folder."),
+                      p("Next steps include: cleaning the two other data sets that I want to work with and joining them together to make plots that include data from each source."),
+                      p("One challenge I am facing is the fact that some countries in my original dataset are missing.")
              )
   ))
   
