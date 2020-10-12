@@ -28,5 +28,5 @@ sex_education <- sex_ed %>%
   rename(total = E, curriculum_laws = EC8, family_planning = ES2, sex_edu = ES3) %>%
   drop_na()
 
-
+write_csv(sex_education, "final_proj/sex_education_clean.csv")
    

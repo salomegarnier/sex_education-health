@@ -7,7 +7,9 @@ library(fec16)
 
 # this is just a normal object
 
-state.names <- c("CA", "NY", "KS")
+sex_ed <- read_csv("sex_education_clean.csv")
+
+state.names <- c(1,2,3)
 
 ######################################################################################
 ######################################################################################
@@ -29,7 +31,7 @@ state.names <- c("CA", "NY", "KS")
 
 ui <- fluidPage(
   
-  navbarPage("Human Trafficking",
+  navbarPage("SDGs: Sex Education in the World",
              
              # - UIs are built from "panel" functions, which specify areas of your page. 
              # 
@@ -38,7 +40,7 @@ ui <- fluidPage(
              # Here is a sidebar!
              
              tabPanel("Main",
-                      sidebarPanel("Hello, world!"), 
+                      sidebarPanel("How does each country rank in sex education?"), 
                       mainPanel(
                         
                         # - You can also make your UI more complicated with UI elements. 
@@ -61,33 +63,39 @@ ui <- fluidPage(
                         #
                         # - All of these functions have their own arguments. For example:
                         
-                        selectInput(inputId = "selected_state",                  # a name for the value you choose here
-                                    label = "Choose a state from this list!",    # the name to display on the slider
-                                    choices = state.names),                      # your list of choices to choose from
+                        # selectInput(inputId = "selected_state",                  # a name for the value you choose here
+                        #             label = "Choose a state from this list!",    # the name to display on the slider
+                        #             choices = state.names),                      # your list of choices to choose from
+                        # 
+                        # sliderInput(inputId = "selected_size",                   # a name for the value you choose here
+                        #             label = "Choose a number as a point size:",  # the label to display above the slider
+                        #             min = 0, max = 5, value = 2),                # the min, max, and initial values
+                        # 
+                        # radioButtons(inputId = "selected_color",                 # a name for the value you choose here
+                        #              label = "Choose a color!",                  # the label to display above the buttons
+                        #              choices = c("red", "blue", "green")),       # the button values to choose from
+                        # 
+                        # textInput(inputId = "entered_text",                      # a name for the value you choose here
+                        #           label = "Place your title text here:",         # a label above the text box
+                        #           value = "Example Title"),                      # an initial value for the box
+                        # 
+                        # textOutput("state_message"), # here, we load a text object called "state_message"
+                        # textOutput("size_message"),
+                        # textOutput("color_message"),
+                        # textOutput("text_message"),
+                  
+                        selectInput(inputId = "selected_country",
+                                    label = "Choose a country or region",
+                                    choices = sex_ed$GeoAreaName),
                         
-                        sliderInput(inputId = "selected_size",                   # a name for the value you choose here
-                                    label = "Choose a number as a point size:",  # the label to display above the slider
-                                    min = 0, max = 5, value = 2),                # the min, max, and initial values
+                        plotOutput("country_plot")
                         
-                        radioButtons(inputId = "selected_color",                 # a name for the value you choose here
-                                     label = "Choose a color!",                  # the label to display above the buttons
-                                     choices = c("red", "blue", "green")),       # the button values to choose from
-                        
-                        textInput(inputId = "entered_text",                      # a name for the value you choose here
-                                  label = "Place your title text here:",         # a label above the text box
-                                  value = "Example Title"),                      # an initial value for the box
-                        
-                        textOutput("state_message"), # here, we load a text object called "state_message"
-                        textOutput("size_message"),
-                        textOutput("color_message"),
-                        textOutput("text_message"),
-                        plotOutput("state_plot")
-                      ),
+                        ),
              ),
              tabPanel("About",
-                      h3("This is an About Me!"),
-                      mainPanel("Here is a link to my final project repo: https://github.com/salomegarnier/Final_Project.git. 
-                                The data I have so far is from UN Stats, WHO, and IHME. You can find it in the raw data folder.")
+                      h3("This is an About Me! My name is Salomé"),
+                      p("Here is a link to my final project repo: https://github.com/salomegarnier/Final_Project.git."),
+                      p("The data I have so far is from UN Stats, WHO, and IHME. You can find it in the raw data folder.")
              )
   ))
   
@@ -127,19 +135,30 @@ ui <- fluidPage(
     
     # Just like renderText(), we can renderPlot()!
     
-    output$state_plot <- renderPlot({
+    output$country_plot <- renderPlot({
       
       # we need to use () here after the name of our dataset because it is reactive!
-      results() %>%
+      sex_ed %>%
         
         # notice we are using the selected_state variable defined above!
         
-        filter(state == input$selected_state) %>%
+        pivot_longer(names_to = "sdg", values_to = "value", cols = total:sex_edu) %>%
+        filter(GeoAreaName == input$selected_country) %>%
         
         # this plot is just like normal!
-        ggplot(aes(x = primary_percent, y = general_percent)) + 
-        geom_point(size = input$selected_size, color = input$selected_color) + 
-        labs(title = input$entered_text) + theme_bw()
+        ggplot(aes(x = sdg, y = value)) + 
+        geom_col(fill = "#E26D5C") +
+        theme_classic() +
+        labs(title = paste("Sex Education Laws in ", input$selected_country),
+             x = "Sustainable Development Goal",
+             y = "Score (out of 100)") +
+        theme(axis.text.x = element_text(size = 13), 
+              plot.title = element_text(size = 20, 
+                                        face = "bold"), 
+              axis.title.x = element_text(size = 16),
+              axis.title.y = element_text(size = 16)) +
+        scale_x_discrete(breaks = c("curriculum_laws", "family_planning", "sex_edu", "total"), 
+                         labels = c("Curriculum Laws", "Family Planning", "Sex Education", "SDG Total Score"))
     })
     
   }
