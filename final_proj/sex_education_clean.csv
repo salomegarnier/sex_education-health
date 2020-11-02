@@ -1,31 +1,39 @@
-GeoAreaName,total,curriculum_laws,family_planning,sex_edu
+country,total,curriculum_laws,family_planning,sex_edu
 Afghanistan,54,0,37,0
 Africa,69,42,73,43
 Albania,82,100,85,100
 Americas,66,59,65,61
 Angola,66,0,100,0
+Antigua and Barbuda,NA,0,33,0
 Armenia,87,100,93,100
 Asia,72,58,78,57
+Australia,NA,0,93,0
 Australia and New Zealand,94,50,97,50
+Bangladesh,NA,100,0,94
 Barbados,44,0,20,0
 Belarus,87,100,100,100
+Belgium,NA,100,100,100
 Belize,42,0,0,50
 Benin,91,100,77,100
+Botswana,NA,100,93,94
 Burkina Faso,72,100,52,75
 Burundi,64,0,38,50
 Cambodia,98,100,100,100
+Cameroon,NA,0,100,0
 Caribbean,55,50,50,50
 Central African Republic,77,100,70,94
 Central America,62,50,69,57
 Central and Southern Asia,62,40,64,37
 Central Asia,68,50,68,47
 Chad,75,0,100,0
+China,NA,NA,100,NA
 Colombia,97,100,100,100
 Congo,53,0,92,0
 Costa Rica,62,0,67,0
-Côte d'Ivoire,63,0,100,0
-Czechia,70,100,0,100
-Democratic People's Republic of Korea,83,100,100,63
+Cote d'Ivoire,63,0,100,0
+Czech Republic,70,100,0,100
+North Korea,83,100,100,63
+Democratic Republic of the Congo,NA,NA,85,NA
 Denmark,90,100,85,100
 Eastern Africa,69,50,61,62
 Eastern and South-Eastern Asia,82,88,88,89
@@ -33,25 +41,33 @@ Eastern Asia,83,100,100,81
 Eastern Europe,82,67,73,60
 Egypt,44,0,37,0
 El Salvador,83,100,100,100
+Equatorial Guinea,NA,0,NA,0
 Europe,84,80,81,76
 Europe and Northern America,84,80,81,76
 Finland,98,100,100,100
 Gabon,58,100,22,100
 Gambia,83,100,100,100
 Georgia,93,100,100,94
+Germany,NA,NA,85,NA
 Greece,54,0,33,0
+Guatemala,NA,100,85,100
+Guinea,NA,NA,100,NA
 Guinea-Bissau,70,0,85,50
 Guyana,75,100,70,100
 Haiti,65,0,85,0
+Honduras,NA,0,60,0
+India,NA,0,100,0
+Iran,NA,0,100,0
 Iraq,39,0,27,0
 Japan,83,100,100,100
 Kazakhstan,63,0,67,0
 Kyrgyzstan,73,100,70,94
 Landlocked developing countries (LLDCs),69,59,72,59
-Lao People's Democratic Republic,96,100,100,100
+Laos,96,100,100,100
 Latin America and the Caribbean,66,59,65,61
 Latvia,70,100,33,100
 Least Developed Countries (LDCs),71,45,73,47
+Liberia,NA,0,85,0
 Libya,33,0,0,0
 Lithuania,88,100,85,100
 Malawi,76,100,93,100
@@ -61,6 +77,7 @@ Mali,79,0,93,0
 Malta,90,100,100,100
 Mauritania,62,0,100,0
 Mauritius,73,0,70,0
+Mexico,NA,100,100,94
 Middle Africa,64,38,71,30
 Montenegro,52,0,37,0
 Mozambique,94,100,100,100
@@ -69,17 +86,28 @@ Namibia,96,100,100,100
 Nepal,48,0,67,0
 Netherlands,98,100,100,100
 New Zealand,94,100,100,100
+Niger,NA,100,100,100
+Nigeria,NA,100,100,100
 Northern Africa,45,0,27,0
 Northern Africa and Western Asia,62,30,70,29
 Northern Europe,90,100,84,100
 Oceania,94,50,97,50
 Pakistan,65,0,100,0
+Peru,NA,100,93,100
 Philippines,75,100,53,100
+Moldova,NA,100,67,NA
+Romania,NA,0,NA,0
+Russian Federation,NA,0,100,0
+Saint Lucia,NA,100,70,100
 Saint Vincent and the Grenadines,81,100,93,100
 Sao Tome and Principe,54,100,0,50
+Saudi Arabia,NA,NA,100,NA
+Senegal,NA,0,22,0
 Serbia,86,100,100,50
 Sierra Leone,65,0,100,0
+Slovenia,NA,NA,100,NA
 Small island developing States (SIDS),57,46,42,49
+Somalia,NA,0,0,0
 South Africa,95,100,85,100
 South America,79,80,77,80
 South Sudan,16,0,7,44
@@ -88,7 +116,7 @@ Southern Africa,95,100,93,98
 Southern Asia,60,38,63,34
 Southern Europe,73,60,76,50
 Sri Lanka,89,100,100,100
-State of Palestine,60,0,85,0
+Palestine,60,0,85,0
 Sub-Saharan Africa,72,47,77,49
 Sudan,57,0,45,0
 Suriname,45,0,20,0
@@ -97,10 +125,14 @@ Switzerland,92,100,100,100
 Syrian Arab Republic,77,100,93,94
 Togo,73,0,100,0
 Trinidad and Tobago,32,100,0,100
+Tunisia,NA,0,NA,0
+Turkey,NA,NA,85,NA
 Ukraine,88,100,100,100
-United Kingdom of Great Britain and Northern Ireland,92,100,100,100
+United Kingdom,92,100,100,100
+Tanzania,NA,100,100,100
 Uruguay,99,100,100,100
-Viet Nam,54,0,52,50
+Uzbekistan,NA,NA,67,NA
+Vietnam,54,0,52,50
 Western Africa,73,38,87,40
 Western Asia,70,50,85,48
 Western Europe,95,100,96,100

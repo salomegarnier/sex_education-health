@@ -14,8 +14,7 @@ sex_education <- sex_ed %>%
   mutate(SeriesCode = str_sub(SeriesCode, 13, 16)) %>%
   
   # I want to reduce the Series Code to just a few symbols that I can later rename easily.
-  
-  arrange(SeriesCode) %>%
+
   pivot_wider(names_from = "SeriesCode",values_from = "Value") %>%
   
   # I want a single row per country, with values for each sub-indicator
@@ -25,8 +24,24 @@ sex_education <- sex_ed %>%
   # I chose only the sub-indicators I am interested in because there are many
   # (Wisdom!!). I might have to reduce the number of sub-indicators again later.
   
-  rename(total = E, curriculum_laws = EC8, family_planning = ES2, sex_edu = ES3) %>%
-  drop_na()
+  rename(total = E, 
+         curriculum_laws = EC8, 
+         family_planning = ES2, 
+         sex_edu = ES3, 
+         country = GeoAreaName)
 
 write_csv(sex_education, "final_proj/sex_education_clean.csv")
    
+
+
+sex_ed_region <- sex_education %>%
+  filter(country %in% c("Africa", "Asia", "Americas", "Europe", 
+                        "Latin America and the Caribbean", 
+                        "Northern Africa","Oceania",
+                        "South-Eastern Asia",
+                        "Sub-Saharan Africa",
+                        "World"))
+
+write_csv(sex_ed_region, "final_proj/sex_edu_region_clean.csv")
+
+
