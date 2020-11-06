@@ -5,8 +5,8 @@ account: salomegarnier
 server: shinyapps.io
 hostUrl: https://api.shinyapps.io/v1
 appId: 2917550
-bundleId: 3775285
+bundleId: 3829453
 url: https://salomegarnier.shinyapps.io/final_proj/
-when: 1603476109.17943
+when: 1604699787.80965
 asMultiple: FALSE
 asStatic: FALSE
