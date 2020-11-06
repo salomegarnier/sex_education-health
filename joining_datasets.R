@@ -41,6 +41,7 @@ joined1 <- sex_education %>%
   
   full_join(., adolescent_preg, by = "country") %>%
   full_join(., hiv_to_join, by = "country") %>%
+  left_join(., predictors, by = "country") %>%
   write_csv("final_proj/fulldataset.csv")
 
 
