@@ -95,7 +95,7 @@ school_enrollment <- read_excel("Raw_data/school_enrollment.xlsx",
 # State Fragility Index
 state_fragility <- read_excel("Raw_data/state_fragility.xlsx") %>%
   filter(year == '2018') %>%
-  select(country, sfi, region) %>%
+  select(country, sfi) %>%
   rename(state_frag_index = sfi)
 
 # Polity Score
@@ -103,6 +103,12 @@ polity <- read_excel("Raw_data/polity.xlsx") %>%
   filter(year == '2018') %>%
   select(country, democ, autoc, polity)
 
+# World Bank Income Group
+income_group <- read_excel("Raw_data/maternal_mortality.xlsx", 
+                                 skip = 6) %>%
+  filter(Year == '2017') %>%
+  select('World Bank Income Group', Country, 'WHO Region') %>%
+  rename(country = Country, income_group = 'World Bank Income Group', region = 'WHO Region')
 
 # Joining the datasets
 predictors <- full_join(urban, median_age, by = "country") %>%
@@ -116,7 +122,8 @@ predictors <- full_join(urban, median_age, by = "country") %>%
   left_join(., population, by = "country") %>%
   left_join(., literacy, by = "country") %>%
   left_join(., poverty, by = "country") %>%
-  left_join(., school_enrollment, by = "country")
+  left_join(., school_enrollment, by = "country") %>%
+  left_join(., income_group, by = "country")
   
 write_csv(predictors, "final_proj/predictors_clean.csv")
 

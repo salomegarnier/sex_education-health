@@ -39,8 +39,7 @@ joined1 <- sex_education %>%
   filter(country != "Western Europe") %>%
   filter(country != "World") %>%
   
-  full_join(., adolescent_preg, by = "country") %>%
-  full_join(., hiv_to_join, by = "country") %>%
+  full_join(., health_outcomes, by = "country") %>%
   left_join(., predictors, by = "country") %>%
   write_csv("final_proj/fulldataset.csv")
 
