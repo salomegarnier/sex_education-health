@@ -1,11 +1,10 @@
 
-library(shiny) # you may need to install.packages() this
+library(shiny)
 library(tidyverse)
-
 library(shiny)
 library(fec16)
-
-# this is just a normal object
+library(ggtext)
+library(mdthemes)
 
 sex_ed <- read_csv("sex_education_clean.csv")
 full_data <- read_csv("fulldataset.csv")
@@ -99,22 +98,23 @@ ui <- fluidPage(
         labs(title = paste("Sex Education Laws in", input$selected_country),
              x = "Sustainable Development Goal Indicator",
              y = "Score (out of 100)") +
-        theme(axis.text.x = element_text(size = 13), 
-              axis.text.y = element_text(size = 13),
-              plot.title = element_text(size = 20, 
+        md_theme_classic() +
+        theme(axis.text.x = element_markdown(size = 13), 
+              axis.text.y = element_markdown(size = 13),
+              plot.title = element_markdown(size = 20, 
                                         face = "bold"), 
-              axis.title.x = element_text(size = 16, margin = margin(t = 20)),
-              axis.title.y = element_text(size = 16),
+              axis.title.x = element_markdown(size = 16, margin = margin(t = 20)),
+              axis.title.y = element_markdown(size = 16),
               legend.position = "bottom",
-              legend.text = element_text(size = 12),
+              legend.text = element_markdown(size = 12),
               legend.title = element_blank()) +
         scale_x_discrete(breaks = c("curriculum_laws", "family_planning", "sex_edu", "total"), 
                          labels = c("Curriculum", "Family Planning", "Sex Education Laws", "SDG Total Score")) +
         scale_fill_manual(breaks = c("curriculum_laws", "family_planning", "sex_edu", "total"),
-                            labels = c("Curriculum: Extent to which \nComprehensive Sexual \nEducation exists in school \ncurriculums",
-                                       "Family Planning: Access \nto contraception and \nfamily planning resources",
-                                       "Sex Education Laws: Extent to \nwhich Comprehensive Sexual \nEducation exists in country laws",
-                                       "SDG Total Score: Extent to which \ncountries have laws and regulations that \nguarantee access to sexual and \nreproductive health care, information and education"),
+                            labels = c("**Curriculum:** extent to <br>which comprehensive <br>sexual education exists <br>in school curricula",
+                                       "**Family Planning:** <br>access to family <br>planning resources <br>and contraception",
+                                       "**Sex Education Laws:** extent <br>to which comprehensive <br>sexual education exists in <br>country laws",
+                                       "**SDG Total Score:** extent to which <br>countries have laws and regulations <br>that guarantee access to sexual and <br>reproductive health care, information <br>and education"),
                           values = c("#C9B1BD", "#7EBDC2", "#F3DFA2", "#8C7DA1")) +
         ylim(c(0, 100))
     })
