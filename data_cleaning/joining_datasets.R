@@ -1,10 +1,22 @@
 
-hiv_to_join <- hiv_incidence %>%
-  filter(metric == "Rate") %>%
-  select(country, val) %>%
-  rename(hiv_rate = val)
+# Joining all datasets together for the full dataset
 
-joined1 <- sex_education %>%
+  # When joining these datasets, I realized that the country names were often
+  # spelled differently. For example, some wrote Slovakia and others had Slovak
+  # Republic. Some included the words "kingdom" or "republic" or even "the"
+  # while others didn't. North Korea and South Korea, Congo and the DRC, even
+  # the UK and the US had many different appellations. I had to go through these
+  # datasets manually to change the names so that the final dataset was unified.
+  # I did this through Excel because it was quicker and easier to just find and
+  # replace the names of countries.
+
+
+full_data <- sex_education %>%
+  
+  # I did this filtering before realizing I could left_join this dataset to the
+  # other ones that only have country names. I won't delete it now that it's
+  # done, but it was ultimately a waste of time.
+  
   filter(country != "Africa") %>%
   filter(country != "Asia") %>%
   filter(country != "Americas") %>% 
@@ -38,6 +50,10 @@ joined1 <- sex_education %>%
   filter(country != "Western Asia") %>%
   filter(country != "Western Europe") %>%
   filter(country != "World") %>%
+  
+  # Here is where I add the two other datasets I have created. I full_join
+  # health outcomes because some countries are missing in the sex_ed dataset,
+  # but only left_join predictors so that I have a relatively uniform dataset.
   
   full_join(., health_outcomes, by = "country") %>%
   left_join(., predictors, by = "country") %>%

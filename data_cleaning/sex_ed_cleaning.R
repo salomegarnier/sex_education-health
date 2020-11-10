@@ -1,4 +1,5 @@
 
+# Cleaning the sex_ed dataset
 
 library(readxl)
 library(tidyverse)
@@ -33,6 +34,7 @@ sex_education <- sex_ed %>%
 write_csv(sex_education, "final_proj/sex_education_clean.csv")
    
 
+# This dataset might be useful, it only looks at sex education by region.
 
 sex_ed_region <- sex_education %>%
   filter(country %in% c("Africa", "Asia", "Americas", "Europe", 
