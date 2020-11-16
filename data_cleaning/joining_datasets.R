@@ -57,6 +57,12 @@ full_data <- sex_education %>%
   
   full_join(., health_outcomes, by = "country") %>%
   left_join(., predictors, by = "country") %>%
+  mutate(across(.cols = total:school_enroll_girls, 
+                as.numeric)) %>%
+  
+  # I want to make sure all my outcomes and predictors are numeric, so that I
+  # can use them in my model.
+  
   write_csv("final_proj/fulldataset.csv")
 
 

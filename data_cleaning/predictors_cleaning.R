@@ -129,7 +129,7 @@ school_enrollment <- read_excel("Raw_data/school_enrollment.xlsx",
 # State Fragility Index
 state_fragility <- read_excel("Raw_data/state_fragility.xlsx") %>%
   filter(year == '2018') %>%
-  select(country, sfi) %>%
+  select(country, sfi, region) %>%
   rename(state_frag_index = sfi)
 
 
@@ -147,7 +147,7 @@ income_group <- read_excel("Raw_data/maternal_mortality.xlsx",
          Country, 'WHO Region') %>%
   rename(country = Country, 
          income_group = 'World Bank Income Group', 
-         region = 'WHO Region')
+         region_name = 'WHO Region')
 
 
 # Joining the datasets

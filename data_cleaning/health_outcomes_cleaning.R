@@ -42,18 +42,22 @@ maternal_mortality <- read_excel("Raw_data/maternal_mortality.xlsx",
                                  skip = 6) %>%
   filter(Year == '2017') %>%
   select(Country, Value) %>%
-  rename(country = Country, matern_mort = Value)
+  rename(country = Country, 
+         matern_mort = Value) %>%
+  mutate(matern_mort = as.numeric(matern_mort))
 
 
 # Young people (15-24) newly infected with HIV
 young_people_hiv <- read_excel("Raw_data/young_people_hiv.xlsx", 
                                skip = 3) %>%
   select('Country Name', '2019') %>%
-  rename(country = 'Country Name', youth_hiv = '2019')
+  rename(country = 'Country Name', 
+         youth_hiv = '2019')
 
 
 # Health Outcomes Full Dataset
-health_outcomes <- full_join(hiv_to_join, adolescent_preg, 
+health_outcomes <- full_join(hiv_to_join, 
+                             adolescent_preg, 
                              by = "country") %>%
   
   # hiv_to_join and adolescent_preg were created in an earlier R script.
