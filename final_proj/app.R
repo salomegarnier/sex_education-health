@@ -8,11 +8,20 @@ library(mdthemes)
 library(rstanarm)
 library(gtsummary)
 library(gt)
+library(broom.mixed)
 
 sex_ed <- read_csv("sex_education_clean.csv")
 full_data <- read_csv("fulldataset.csv")
 predictors <- read_csv("predictors_clean.csv")
 health_outcomes <- read_csv("health_outcomes_clean.csv")
+
+outcome_table <- c("HIV rate" = "hiv_rate", 
+                   "Pregnancy Rate" = "pregnancy_rate", 
+                   "Contraception Prevalence" = "contracept_prev", 
+                   "Youth HIV Rate" = "youth_hiv", 
+                   "Maternal Mortality" = "matern_mort", 
+                   "Total Life Expectancy" = "total_life_exp", 
+                   "Female Life Expectancy" = "female_life_exp")
 
 ######################################################################################
 ######################################################################################
@@ -207,13 +216,13 @@ ui <- fluidPage(
     
     output$model1 <- render_gt(
       stan_glm(data = full_data,
-             formula = input$selected_outcome ~ total + family_planning + curriculum_laws + sex_edu,
+             formula = get(input$selected_outcome) ~ total + family_planning + curriculum_laws + sex_edu,
              refresh = 0,
              family = "gaussian") %>%
       tbl_regression() %>%
       as_gt() %>%
-      tab_header(title = paste("Regression of", input$selected_outcome),
-                 subtitle = paste("The Effect of Sexual Education on", input$selected_outcome)))
+      tab_header(title = paste("Regression of", names(outcome_table)[outcome_table == input$selected_outcome]),
+                 subtitle = paste("The Effect of Sexual Education on", names(outcome_table)[outcome_table == input$selected_outcome])))
     
   }
   

@@ -4,35 +4,46 @@ library(rstanarm)
 library(tidyverse)
 
 
-## How do I make a scatterplot with a regression line once I have my model??
+## Plot for model 1
 
-stan_glm(data = full_data,
+model_1 <- stan_glm(data = full_data,
        formula = matern_mort ~ total + family_planning + curriculum_laws + sex_edu,
        refresh = 0,
-       family = "gaussian") 
+       family = "gaussian")
 
-  # as_tibble() %>%
-  # mutate(effect = `(Intercept)` + total + family_planning + curriculum_laws + sex_edu) %>%
-  # select(`(Intercept)`, effect) %>%
-  # pivot_longer(cols = `(Intercept)`:effect, names_to = "category", values_to = "values") %>%
-  # ggplot(aes(values, fill = category)) +
-  # geom_histogram()
+new_obs <- tibble(total = seq(0, 100, by = .1),
+       family_planning = mean(full_data$family_planning, na.rm = TRUE),
+       curriculum_laws = mean(full_data$curriculum_laws, na.rm = TRUE),
+       sex_edu = mean(full_data$sex_edu, na.rm= TRUE))
 
+predict_1 <- predict(model_1, newdata = new_obs, se.fit = TRUE) 
+
+tibble(total = seq(0, 100, .1),
+       prediction = predict_1$fit,
+       se = predict_1$se.fit) %>%
+  ggplot(aes(total, prediction)) +
+  geom_line() +
+  geom_errorbar(aes(ymin = prediction - 1.96*se, ymax = prediction + 1.96*se),
+                alpha = 0.2, color = "blue")
+
+  # Potentially make regression tables ahead of time to avoid long wait time
+
+
+# Model 2
 
 stan_glm(data = full_data,
          formula = formula,
          refresh = 0,
          family = "gaussian")
 
+# Custom formula
+
+formula <- as.formula(paste(input$selected_outcome_2, "~", paste(input$selected_predictors, collapse =" + ")))
+
+
 
 # Have two models: one simple model with only a few predictors (with simple plot
-# with a regression line) and a second one with all predictors (print out regression table)
+# with a regression line and regression table) and a second one with all predictors (print out regression table)
 
-# Have public choose the outcome they want to look at
-
-# To choose predictors, use checkbox
-
-# Before next week, set up dropdown for outcome and checkboxes for predictors
-
-# Final app: two models, two plots (one simple and one with all predictors), one
-# regression table, and interactive interface to choose outcome + predictors
+# Final app: two models (one simple and one with all predictors), one plots, two
+# regression tables, and interactive interface to choose outcome + predictors
