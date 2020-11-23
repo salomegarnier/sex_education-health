@@ -5,6 +5,9 @@ library(shiny)
 library(fec16)
 library(ggtext)
 library(mdthemes)
+library(rstanarm)
+library(gtsummary)
+library(gt)
 
 sex_ed <- read_csv("sex_education_clean.csv")
 full_data <- read_csv("fulldataset.csv")
@@ -41,7 +44,7 @@ ui <- fluidPage(
                       # Side Panel
                       sidebarPanel(
                         h4("SDG #5: Achieve gender equality and empower all women and girls"),
-                        h5("Target 5.6.2: Extent to which countries have laws and regulations that guarantee full and equal access to women and men aged 15 years and older to sexual and reproductive health care, information and education")),
+                        h5("Target 5.6.2: Having laws and regulations that guarantee full and equal access to women and men aged 15 years and older to sexual and reproductive health care, information and education")),
                       br(),
                       h2("About the Data"),
                       p("The United Nations'", a(href="https://sdgs.un.org/goals", "Sustainable Develoment Goals"), "(SDGs) were adopted in 2015 as a global blueprint for peace and prosperity. As a unit, they recognize the strategic importance of ending poverty through improving health and education, as well as reducing inequalities. They also reaffirm the UN's dedication to tackling climate change and preserving the environment."),
@@ -52,7 +55,7 @@ ui <- fluidPage(
              
              # Panel 2
              
-             tabPanel("Model",
+             tabPanel("Data",
                       h2("Are Health Outcomes Impacted by Sex Education Laws?"),
                       p("I now have a larger dataset that I will be able to use to make my model. It includes many predictors about each country, that I can use as controls, as well as several health outcomes I am interested in."),
                       br(),
@@ -65,6 +68,63 @@ ui <- fluidPage(
              ),
              
              # Panel 3
+             
+             tabPanel("Models",
+                      mainPanel(
+                         h3("Model 1"),
+                         selectInput(inputId = "selected_outcome",
+                           label = "Choose a health outcome:",
+                           choices = c("HIV rate" = "hiv_rate", "Pregnancy Rate" = "pregnancy_rate", 
+                                       "Contraception Prevalence" = "contracept_prev", "Youth HIV Rate" = "youth_hiv", 
+                                       "Maternal Mortality" = "matern_mort", "Total Life Expectancy" = "total_life_exp", 
+                                       "Female Life Expectancy" = "female_life_exp")),
+                         h4("Input plot and regression table here: simple model"),
+                         gt_output("model1"),
+                         p("This model regresses the chosen health outcome on all four SDG scores, to see which one has the highest impact on women and girls' health."),
+                         br(),
+                         br(),
+                         h3("Model 2"),
+                         selectInput(inputId = "selected_outcome2",
+                                     label = "Choose a health outcome:",
+                                     choices = c("HIV rate" = "hiv_rate", 
+                                                 "Pregnancy Rate" = "pregnancy_rate", 
+                                                 "Contraception Prevalence" = "contracept_prev", 
+                                                 "Youth HIV Rate" = "youth_hiv", 
+                                                 "Maternal Mortality" = "matern_mort", 
+                                                 "Total Life Expectancy" = "total_life_exp", 
+                                                 "Female Life Expectancy" = "female_life_exp")),
+                         selectInput(inputId = "selected_predictors",
+                                     label = "Choose predictors that you think affect the efficacy of sex education laws:",
+                                     choices = c("Urbanization Rate" = "percent_urban_pop",
+                                                 "Median Age" = "med_age",
+                                                 "HDI" = "human_devel_index",
+                                                 "Inequality" = "inequality_coef",
+                                                 "GDP per Capita" = "gdp_capita",
+                                                 "School Enrollment Rate (girls)" = "school_enroll_girls",
+                                                 "Gender Inequality Index" = "gend_ineq_index",
+                                                 "Youth Dependency Ratio" = "youth_depend_ratio",
+                                                 "Primary Healthcare Expenditures" = "phc_expend",
+                                                 "Total Government Expenditures" = "gov_expend",
+                                                 "Expenditures on Reproductive Health" = "reprod_health_expend",
+                                                 "Expenditures on Family Planning" = "family_plann_expend",
+                                                 "State Fragility Index" = "state_frag_index",
+                                                 "Democracy Score" = "democ",
+                                                 "Autocracy Score" = "autoc",
+                                                 "Polity Score" = "polity",
+                                                 "World Region" = "region",
+                                                 "Total Population" = "pop_count",
+                                                 "Youth Literacy Rate" = "youth_literacy_rate",
+                                                 "Poverty Rate" = "poverty_rate",
+                                                 "Income Group" = "income_group"),
+                                     multiple = TRUE),
+                         p("For this next model, we will hold constant the predictors you have chosen to estimate the causal effect of sexual education laws by controlling for other confounding factors. Choose any variable that you think may be a confounding variable; i.e., that may be influencing health outcomes and biasing our evaluation of the causal effect of sexual education laws."),
+                         h4("Input plot and regression table here: complex model"),
+                         p("This model regresses a health outcome on the predictors you have chosen, to see the real impact of sexual education laws when all other factors are controlled.")
+                         )
+               
+             ),
+             
+             # Panel 4
              
               tabPanel("About",
                  h3("This is an About Me! My name is Salomé"),
@@ -86,7 +146,6 @@ ui <- fluidPage(
         pivot_longer(names_to = "sdg", values_to = "value", cols = total:sex_edu) %>%
         filter(country == input$selected_country) %>%
         
-        # this plot is just like normal!
         ggplot(aes(x = sdg, y = value)) + 
         geom_col(aes(fill = sdg)) +
         geom_text(aes(x = sdg, 
@@ -142,6 +201,19 @@ ui <- fluidPage(
     output$predictors <- renderDataTable(predictors, options = list(pageLength = 5))
     
     output$health <- renderDataTable(health_outcomes, options = list(pageLength = 5))
+    
+    
+    # Models
+    
+    output$model1 <- render_gt(
+      stan_glm(data = full_data,
+             formula = input$selected_outcome ~ total + family_planning + curriculum_laws + sex_edu,
+             refresh = 0,
+             family = "gaussian") %>%
+      tbl_regression() %>%
+      as_gt() %>%
+      tab_header(title = paste("Regression of", input$selected_outcome),
+                 subtitle = paste("The Effect of Sexual Education on", input$selected_outcome)))
     
   }
   
