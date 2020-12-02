@@ -5,8 +5,9 @@ account: salomegarnier
 server: shinyapps.io
 hostUrl: https://api.shinyapps.io/v1
 appId: 2917550
-bundleId: 3829453
+bundleId: 3914088
 url: https://salomegarnier.shinyapps.io/final_proj/
-when: 1604699787.80965
+when: 1606513823.73676
 asMultiple: FALSE
 asStatic: FALSE
+ignoredFiles: Notepad.R
