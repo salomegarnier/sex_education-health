@@ -188,6 +188,9 @@ ui <- fluidPage(theme = shinytheme("sandstone"),
                            selected = "matern_mort"),
                          plotOutput("model_1_plot"),
                          br(),
+                         p("This plot shows us the predicted change in our chosen health 
+                           outcome as the SDG 5.6.2. Total score increases. All other scores are
+                           held constant at their median value."),
                          p("In addition to a regression line, this plot also prints out the 
                          standard error for our predictions. As you can see, it is very wide! 
                          In the regression table, you can find the", strong("95% confidence 
@@ -284,23 +287,24 @@ ui <- fluidPage(theme = shinytheme("sandstone"),
                           (under the Beta column) represent the", 
                           strong("predicted change in the chosen health outcome 
                           for a unit increase of the value of each SDG score,"), 
-                          "holding all other scores constant at the median. 
-                          In other words these coefficients represent the 
+                          "holding all other scores constant at zero. A unit increase
+                          here is an increase of 1 in the specific SDG score, which ranges 
+                          from 0 to 100. In other words, these coefficients represent the 
                           difference between two hypothetical groups: one where all
-                          scores are held constant at the median (this is our Intercept value), 
+                          scores are held constant at zero (this is our Intercept value), 
                           and another where", strong("just one of the scores increases."),
                           "For example, the predicted maternal mortality rate is 492 (the 
-                          Intercept of our model) for a country with median scores on each 
+                          Intercept of our model) for a country with scores of zero on each 
                           indicator, and it is predicted to", em("decrease by -7.5 for each unit
                           increase in the total SDG score."), "This works for other scores too:", 
-                          em("each unit increase"), "of the family_planning or curriculum score, 
+                          em("each increase of one"), "on the family_planning or curriculum score 
                           is estimated to", em("increase or decrease the value of the chosen health 
                           indicator"), "by the coefficient listed in the Beta column."),
                         p("The mathematical formula above depicts this relationship: each 
                           coefficient in our table represents the median of the posterior 
                           for the Beta values in our above formula. The Intercept 
                           (\\(\\beta_0\\)) is the", strong("value of the health outcome
-                          when all predictors are held constant"), "at the median. When multiplied
+                          when all predictors are held constant"), "at zero. When multiplied
                           by the value of each corresponding SDG score, coefficients  
                           can be added up to the Intercept (\\(\\beta_0\\)) to calculate 
                           \\(outcome_i\\), the", strong("predicted value of the health outcome"),  
@@ -312,6 +316,8 @@ ui <- fluidPage(theme = shinytheme("sandstone"),
                         br(),
                         br(),
                         br(),    
+                        br(),
+                        br(),
                         br(),
                         br(),
                         br(),
