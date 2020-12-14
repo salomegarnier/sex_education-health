@@ -1,0 +1,12 @@
+name: sex_education_health
+title: sex_education_health
+username:
+account: salomegarnier
+server: shinyapps.io
+hostUrl: https://api.shinyapps.io/v1
+appId: 3397381
+bundleId: 3985256
+url: https://salomegarnier.shinyapps.io/sex_education_health/
+when: 1607916744.92947
+asMultiple: FALSE
+asStatic: FALSE
