@@ -188,6 +188,7 @@ ui <- fluidPage(theme = shinytheme("sandstone"),
                            selected = "matern_mort"),
                          plotOutput("model_1_plot"),
                          br(),
+                         
                          p("This plot shows us the predicted change in our chosen health 
                            outcome as the SDG 5.6.2. Total score increases. All other scores are
                            held constant at their median value."),
@@ -202,6 +203,7 @@ ui <- fluidPage(theme = shinytheme("sandstone"),
                          br(),
                          br(),
                          br(),
+                         
                          h3("Model 2: Predictors"),
                          selectInput(inputId = "selected_outcome2",
                                      label = "Choose a health outcome:",
@@ -279,6 +281,9 @@ ui <- fluidPage(theme = shinytheme("sandstone"),
                         br(),
                         br(),
                         withMathJax(),
+                      
+                      # withMathJax() will allow me to write my function in LaTex.
+                      
                         gt_output("model1"),
                         p('$$ outcome_i = \\beta_0 + \\beta_1total_i + 
                           \\beta_2plan_i + \\beta_3curric_i +
@@ -316,7 +321,6 @@ ui <- fluidPage(theme = shinytheme("sandstone"),
                         br(),
                         br(),
                         br(),    
-                        br(),
                         br(),
                         br(),
                         br(),
@@ -392,10 +396,10 @@ ui <- fluidPage(theme = shinytheme("sandstone"),
                 sidebarPanel(img(src = "IMG_4260.jpg", height = 200),
                              h3("About Me"),
                              h4("Salomé Garnier, Harvard '22"),
-                p("Undergraduate student studying Government on the Public Policy Track,
-                  with a secondary in Global Health and Health Policy. 
-                  Interested in using data to understand the relationship 
-                  between social determinants and health."))
+                p("I am an undergraduate student studying Government on the 
+                  Public Policy Track, with a secondary in Global Health and  
+                  Health Policy. I am interested in using data to understand 
+                  the relationship between social determinants and health."))
   )))
 
 # Server
@@ -615,7 +619,7 @@ ui <- fluidPage(theme = shinytheme("sandstone"),
                             names(outcome_table)
                             [outcome_table == input$selected_outcome],
                             "based on Sexual Education"),
-              subtitle = paste("Predicted changes in", 
+              subtitle = paste("Predicted change in", 
                                names(outcome_table)
                                [outcome_table == input$selected_outcome], 
                                "as a country's SDG 5.6.2. total score increases"),
