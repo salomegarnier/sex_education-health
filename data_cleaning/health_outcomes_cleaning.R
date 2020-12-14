@@ -12,7 +12,7 @@ library(readxl)
   # pivoted to match the format of the final dataset.
 
 # Contraceptive Prevalence
-contraception <- read_excel("Raw_data/predictors.xlsx", 
+contraception <- read_excel("raw_data/predictors.xlsx", 
                             sheet = "Contraception", 
                             skip = 9) %>%
   select(Country, '2008-2018') %>%
@@ -22,7 +22,7 @@ contraception <- read_excel("Raw_data/predictors.xlsx",
 
 
 # Life Expectancy
-life_expectancy <- read_excel("Raw_data/life_expectancy.xlsx") %>%
+life_expectancy <- read_excel("raw_data/life_expectancy.xlsx") %>%
   select('Series Name', 'Country Name', '2020 [YR2020]') %>%
   slice(1:774) %>%
   pivot_wider(names_from = 'Series Name', 
@@ -38,7 +38,7 @@ life_expectancy <- read_excel("Raw_data/life_expectancy.xlsx") %>%
 
 
 # Maternal Mortality
-maternal_mortality <- read_excel("Raw_data/maternal_mortality.xlsx", 
+maternal_mortality <- read_excel("raw_data/maternal_mortality.xlsx", 
                                  skip = 6) %>%
   filter(Year == '2017') %>%
   select(Country, Value) %>%
@@ -48,7 +48,7 @@ maternal_mortality <- read_excel("Raw_data/maternal_mortality.xlsx",
 
 
 # Young people (15-24) newly infected with HIV
-young_people_hiv <- read_excel("Raw_data/young_people_hiv.xlsx", 
+young_people_hiv <- read_excel("raw_data/young_people_hiv.xlsx", 
                                skip = 3) %>%
   select('Country Name', '2019') %>%
   rename(country = 'Country Name', 
@@ -81,5 +81,5 @@ health_outcomes <- full_join(hiv_to_join,
   # When looking at the dataset, I saw that the countries that had no values in
   # female_life_exp were also NA in most other columns, so I removed those rows.
   
-  write_csv("final_proj/health_outcomes_clean.csv")
+  write_csv("shiny_app/health_outcomes_clean.csv")
          

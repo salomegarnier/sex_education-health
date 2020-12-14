@@ -18,20 +18,20 @@ library(shinythemes)
 # the aesthetics I wanted for the website. I also mutated columns to numeric when
 # relevant, for both aesthetic and modeling purposes.
 
-sex_ed <- read_csv("sex_education_clean.csv") %>%
+sex_ed <- read_csv("datasets/sex_education_clean.csv") %>%
   rename(curriculum = curriculum_laws,
          sex_edu_laws = sex_edu)
 
-full_data <- read_csv("fulldataset.csv") %>%
+full_data <- read_csv("datasets/fulldataset.csv") %>%
   rename(curriculum = curriculum_laws,
          sex_edu_laws = sex_edu) %>%
   select(!hiv_rate)
 
-predictors <- read_csv("predictors_clean.csv") %>%
+predictors <- read_csv("datasets/predictors_clean.csv") %>%
   mutate(across(.cols = percent_urban_pop:school_enroll_girls, 
                 as.numeric))
 
-health_outcomes <- read_csv("health_outcomes_clean.csv") %>%
+health_outcomes <- read_csv("datasets/health_outcomes_clean.csv") %>%
   mutate(across(.cols = hiv_rate:female_life_exp, 
                 as.numeric)) %>%
   select(!hiv_rate)
@@ -486,7 +486,7 @@ ui <- fluidPage(theme = shinytheme("sandstone"),
     
     # Tables 
     
-    output$predictors <- renderDataTable(predictors %>% mutate(across(is.numeric, 
+    output$predictors <- renderDataTable(predictors %>% mutate(across(where(is.numeric), 
                                                                       ~ round(., 2))), 
                                          
                                          # To make my tables look nicer, I made
@@ -532,7 +532,7 @@ ui <- fluidPage(theme = shinytheme("sandstone"),
                                                       "Income Group",
                                                       "Region Name"))
     
-    output$health <- renderDataTable(health_outcomes %>% mutate(across(is.numeric, 
+    output$health <- renderDataTable(health_outcomes %>% mutate(across(where(is.numeric), 
                                                                        ~ round(., 2))), 
                                      options = list(pageLength = 5,
                                                     scrollX = T), 

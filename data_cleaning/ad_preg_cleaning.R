@@ -2,7 +2,7 @@
 library(readxl)
 library(tidyverse)
 
-ad_pregnancy <- read_excel("Raw_data/adolescent_pregnancy.xlsx")
+ad_pregnancy <- read_excel("raw_data/adolescent_pregnancy.xlsx")
 
 adolescent_preg <- ad_pregnancy %>%
   drop_na(Country) %>%
@@ -12,5 +12,4 @@ adolescent_preg <- ad_pregnancy %>%
 
   rename(year_preg = Year, 
          country = Country, 
-         pregnancy_rate = `Adolescent birth rate (per 1000 women aged 15-19 years)`) %>%
-  write_csv("final_proj/ad_preg_clean.csv")
+         pregnancy_rate = `Adolescent birth rate (per 1000 women aged 15-19 years)`) 

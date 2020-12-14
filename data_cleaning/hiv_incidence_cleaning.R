@@ -4,7 +4,7 @@ library(tidyverse)
 
 # Cleaning the hiv_incidence data 
 
-hiv <- read_csv("Raw_data/HIV_incidence/IHME-GBD_2017_DATA-5b83230d-1.csv", 
+hiv <- read_csv("raw_data/HIV_incidence/IHME-GBD_2017_DATA-5b83230d-1.csv", 
                 col_types = cols(
                     measure = col_character(),
                     location = col_character(),
@@ -19,8 +19,7 @@ hiv <- read_csv("Raw_data/HIV_incidence/IHME-GBD_2017_DATA-5b83230d-1.csv",
 
 hiv_incidence <- hiv %>%
   select(location, metric, year, val) %>%
-  rename(country = location) %>%
-  write_csv("final_proj/hiv_incidence_clean.csv")
+  rename(country = location) 
 
 # This dataset might be helpful in the future – it contains different metrics
 # for HIV.

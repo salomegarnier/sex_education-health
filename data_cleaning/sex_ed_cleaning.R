@@ -4,7 +4,7 @@
 library(readxl)
 library(tidyverse)
 
-sex_ed <- read_excel("~/Desktop/Gov 50/Final_Project/Final_Project/Raw_data/sex_ed.xlsx")
+sex_ed <- read_excel("raw_data/sex_ed.xlsx")
 
 sex_education <- sex_ed %>%
   filter(Indicator == "5.6.2") %>%
@@ -31,7 +31,7 @@ sex_education <- sex_ed %>%
          sex_edu = ES3, 
          country = GeoAreaName)
 
-write_csv(sex_education, "final_proj/sex_education_clean.csv")
+write_csv(sex_education, "shiny_app/sex_education_clean.csv")
    
 
 # This dataset might be useful, it only looks at sex education by region.
@@ -43,7 +43,4 @@ sex_ed_region <- sex_education %>%
                         "South-Eastern Asia",
                         "Sub-Saharan Africa",
                         "World"))
-
-write_csv(sex_ed_region, "final_proj/sex_edu_region_clean.csv")
-
 

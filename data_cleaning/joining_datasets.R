@@ -63,6 +63,6 @@ full_data <- sex_education %>%
   # I want to make sure all my outcomes and predictors are numeric, so that I
   # can use them in my model.
   
-  write_csv("final_proj/fulldataset.csv")
+  write_csv("shiny_app/fulldataset.csv")
 
 
