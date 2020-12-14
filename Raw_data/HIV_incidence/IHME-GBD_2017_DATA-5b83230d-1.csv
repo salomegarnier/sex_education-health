@@ -1,0 +1,583 @@
+measure,location,sex,age,cause,metric,year,val,upper,lower
+Incidence,Afghanistan,Both,All Ages,All causes,Number,2017,206015891,220336926.5,192409161.7
+Incidence,Afghanistan,Both,All Ages,All causes,Percent,2017,1,1,1
+Incidence,Afghanistan,Both,All Ages,All causes,Rate,2017,627050.2347,670639.1476,585635.4547
+Incidence,Albania,Both,All Ages,All causes,Number,2017,12294127.7,13001096.37,11621475.8
+Incidence,Albania,Both,All Ages,All causes,Percent,2017,1,1,1
+Incidence,Albania,Both,All Ages,All causes,Rate,2017,444447.2048,470004.9553,420130.046
+Incidence,Algeria,Both,All Ages,All causes,Number,2017,202766929.4,215170623.9,190355241.8
+Incidence,Algeria,Both,All Ages,All causes,Percent,2017,1,1,1
+Incidence,Algeria,Both,All Ages,All causes,Rate,2017,501108.2496,531762.1319,470434.6133
+Incidence,American Samoa,Both,All Ages,All causes,Number,2017,312014.8249,331887.2006,293353.3144
+Incidence,American Samoa,Both,All Ages,All causes,Percent,2017,1,1,1
+Incidence,American Samoa,Both,All Ages,All causes,Rate,2017,560867.3254,596589.2376,527322.0236
+Incidence,Andorra,Both,All Ages,All causes,Number,2017,385003.4158,415643.2075,358604.4315
+Incidence,Andorra,Both,All Ages,All causes,Percent,2017,1,1,1
+Incidence,Andorra,Both,All Ages,All causes,Rate,2017,481458.8803,519774.9036,448446.1201
+Incidence,Angola,Both,All Ages,All causes,Number,2017,198767270,212939779.9,185332936.1
+Incidence,Angola,Both,All Ages,All causes,Percent,2017,1,1,1
+Incidence,Angola,Both,All Ages,All causes,Rate,2017,704791.0262,755044.057,657155.427
+Incidence,Antigua and Barbuda,Both,All Ages,All causes,Number,2017,443362.648,471197.8643,418116.3945
+Incidence,Antigua and Barbuda,Both,All Ages,All causes,Percent,2017,1,1,1
+Incidence,Antigua and Barbuda,Both,All Ages,All causes,Rate,2017,498399.1011,529689.6189,470018.925
+Incidence,Argentina,Both,All Ages,All causes,Number,2017,208295116.8,220745487.8,194769854.7
+Incidence,Argentina,Both,All Ages,All causes,Percent,2017,1,1,1
+Incidence,Argentina,Both,All Ages,All causes,Rate,2017,470554.2493,498680.5689,439999.6707
+Incidence,Armenia,Both,All Ages,All causes,Number,2017,12988569.37,13809131.48,12247079.57
+Incidence,Armenia,Both,All Ages,All causes,Percent,2017,1,1,1
+Incidence,Armenia,Both,All Ages,All causes,Rate,2017,429057.6941,456163.7192,404563.703
+Incidence,Australia,Both,All Ages,All causes,Number,2017,107704306.2,115793298.7,101022902.8
+Incidence,Australia,Both,All Ages,All causes,Percent,2017,1,1,1
+Incidence,Australia,Both,All Ages,All causes,Rate,2017,449834.7714,483619.0297,421929.4102
+Incidence,Austria,Both,All Ages,All causes,Number,2017,43754122.37,46765468.74,40986450.17
+Incidence,Austria,Both,All Ages,All causes,Percent,2017,1,1,1
+Incidence,Austria,Both,All Ages,All causes,Rate,2017,497594.6574,531841.256,466119.2483
+Incidence,Azerbaijan,Both,All Ages,All causes,Number,2017,38769552.17,40726308.42,36815184.61
+Incidence,Azerbaijan,Both,All Ages,All causes,Percent,2017,1,1,1
+Incidence,Azerbaijan,Both,All Ages,All causes,Rate,2017,379163.5616,398300.5035,360049.9808
+Incidence,Bahamas,Both,All Ages,All causes,Number,2017,1862558.279,1979573.867,1755066.051
+Incidence,Bahamas,Both,All Ages,All causes,Percent,2017,1,1,1
+Incidence,Bahamas,Both,All Ages,All causes,Rate,2017,496099.4194,527266.9624,467468.4592
+Incidence,Bahrain,Both,All Ages,All causes,Number,2017,7078595.788,7582336.985,6612818.242
+Incidence,Bahrain,Both,All Ages,All causes,Percent,2017,1,1,1
+Incidence,Bahrain,Both,All Ages,All causes,Rate,2017,481415.0691,515674.4915,449737.5534
+Incidence,Bangladesh,Both,All Ages,All causes,Number,2017,902974669.3,961645629,849362017
+Incidence,Bangladesh,Both,All Ages,All causes,Percent,2017,1,1,1
+Incidence,Bangladesh,Both,All Ages,All causes,Rate,2017,575212.7055,612587.2661,541060.3867
+Incidence,Barbados,Both,All Ages,All causes,Number,2017,1451704.045,1530797.219,1375264.002
+Incidence,Barbados,Both,All Ages,All causes,Percent,2017,1,1,1
+Incidence,Barbados,Both,All Ages,All causes,Rate,2017,490633.1266,517364.2852,464798.6477
+Incidence,Belarus,Both,All Ages,All causes,Number,2017,41389994.6,43941369.65,39222719.49
+Incidence,Belarus,Both,All Ages,All causes,Percent,2017,1,1,1
+Incidence,Belarus,Both,All Ages,All causes,Rate,2017,436095.4776,462977.4121,413260.5176
+Incidence,Belgium,Both,All Ages,All causes,Number,2017,55319103.07,59089176.06,51708193.79
+Incidence,Belgium,Both,All Ages,All causes,Percent,2017,1,1,1
+Incidence,Belgium,Both,All Ages,All causes,Rate,2017,488710.0915,522016.3567,456809.9394
+Incidence,Belize,Both,All Ages,All causes,Number,2017,1982304.808,2113777.54,1852415.996
+Incidence,Belize,Both,All Ages,All causes,Percent,2017,1,1,1
+Incidence,Belize,Both,All Ages,All causes,Rate,2017,501902.1311,535189.8697,469015.4271
+Incidence,Benin,Both,All Ages,All causes,Number,2017,64578761.5,68699332.58,60683870.09
+Incidence,Benin,Both,All Ages,All causes,Percent,2017,1,1,1
+Incidence,Benin,Both,All Ages,All causes,Rate,2017,557419.8069,592987.0411,523800.5555
+Incidence,Bermuda,Both,All Ages,All causes,Number,2017,326791.7068,346343.7016,308850.5792
+Incidence,Bermuda,Both,All Ages,All causes,Percent,2017,1,1,1
+Incidence,Bermuda,Both,All Ages,All causes,Rate,2017,495995.1048,525670.5633,468764.5746
+Incidence,Bhutan,Both,All Ages,All causes,Number,2017,5292187.876,5602059.484,4977571.57
+Incidence,Bhutan,Both,All Ages,All causes,Percent,2017,1,1,1
+Incidence,Bhutan,Both,All Ages,All causes,Rate,2017,552760.7293,585126.3331,519899.5493
+Incidence,Bolivia,Both,All Ages,All causes,Number,2017,63237951.62,67150939.15,59321841.17
+Incidence,Bolivia,Both,All Ages,All causes,Percent,2017,1,1,1
+Incidence,Bolivia,Both,All Ages,All causes,Rate,2017,547847.012,581746.2525,513920.7169
+Incidence,Bosnia and Herzegovina,Both,All Ages,All causes,Number,2017,14977443.7,15782763.75,14208976.12
+Incidence,Bosnia and Herzegovina,Both,All Ages,All causes,Percent,2017,1,1,1
+Incidence,Bosnia and Herzegovina,Both,All Ages,All causes,Rate,2017,440611.6094,464302.7929,418004.5651
+Incidence,Botswana,Both,All Ages,All causes,Number,2017,12354092.34,13087174.84,11603072.9
+Incidence,Botswana,Both,All Ages,All causes,Percent,2017,1,1,1
+Incidence,Botswana,Both,All Ages,All causes,Rate,2017,541408.5187,573535.2908,508495.674
+Incidence,Brazil,Both,All Ages,All causes,Number,2017,1059614090,1119151381,1001758185
+Incidence,Brazil,Both,All Ages,All causes,Percent,2017,1,1,1
+Incidence,Brazil,Both,All Ages,All causes,Rate,2017,500259.9247,528368.3849,472945.2722
+Incidence,Brunei,Both,All Ages,All causes,Number,2017,1993636.001,2153126.795,1844174.201
+Incidence,Brunei,Both,All Ages,All causes,Percent,2017,1,1,1
+Incidence,Brunei,Both,All Ages,All causes,Rate,2017,461008.8147,497889.5,426447.2363
+Incidence,Bulgaria,Both,All Ages,All causes,Number,2017,31782989.36,33442256.3,30261584.25
+Incidence,Bulgaria,Both,All Ages,All causes,Percent,2017,1,1,1
+Incidence,Bulgaria,Both,All Ages,All causes,Rate,2017,450673.0006,474200.8949,429099.9447
+Incidence,Burkina Faso,Both,All Ages,All causes,Number,2017,131775750.4,139932875.1,124338385.1
+Incidence,Burkina Faso,Both,All Ages,All causes,Percent,2017,1,1,1
+Incidence,Burkina Faso,Both,All Ages,All causes,Rate,2017,623880.1328,662499.2871,588668.6131
+Incidence,Burundi,Both,All Ages,All causes,Number,2017,58282389.34,61676587.99,55133166.02
+Incidence,Burundi,Both,All Ages,All causes,Percent,2017,1,1,1
+Incidence,Burundi,Both,All Ages,All causes,Rate,2017,534435.3979,565559.3777,505557.7825
+Incidence,Cambodia,Both,All Ages,All causes,Number,2017,78945482.3,83704546.23,74404352.29
+Incidence,Cambodia,Both,All Ages,All causes,Percent,2017,1,1,1
+Incidence,Cambodia,Both,All Ages,All causes,Rate,2017,489663.8513,519182.2165,461497.2337
+Incidence,Cameroon,Both,All Ages,All causes,Number,2017,178399166.7,189479051.6,167119798.8
+Incidence,Cameroon,Both,All Ages,All causes,Percent,2017,1,1,1
+Incidence,Cameroon,Both,All Ages,All causes,Rate,2017,642422.9319,682322.0652,601805.4517
+Incidence,Canada,Both,All Ages,All causes,Number,2017,179851124.7,192330959.1,169265505.5
+Incidence,Canada,Both,All Ages,All causes,Percent,2017,1,1,1
+Incidence,Canada,Both,All Ages,All causes,Rate,2017,499823.63,534506.294,470405.1728
+Incidence,Cape Verde,Both,All Ages,All causes,Number,2017,2648292.349,2801969.371,2492187.721
+Incidence,Cape Verde,Both,All Ages,All causes,Percent,2017,1,1,1
+Incidence,Cape Verde,Both,All Ages,All causes,Rate,2017,485207.7386,513363.7239,456606.9787
+Incidence,Central African Republic,Both,All Ages,All causes,Number,2017,34689647.14,37375847.91,32149231.8
+Incidence,Central African Republic,Both,All Ages,All causes,Percent,2017,1,1,1
+Incidence,Central African Republic,Both,All Ages,All causes,Rate,2017,750449.6452,808560.8852,695492.2169
+Incidence,Chad,Both,All Ages,All causes,Number,2017,101293562.7,107575030.7,95447282.14
+Incidence,Chad,Both,All Ages,All causes,Percent,2017,1,1,1
+Incidence,Chad,Both,All Ages,All causes,Rate,2017,665438.1378,706703.6266,627031.5702
+Incidence,Chile,Both,All Ages,All causes,Number,2017,82471976.47,87597220,77605488.45
+Incidence,Chile,Both,All Ages,All causes,Percent,2017,1,1,1
+Incidence,Chile,Both,All Ages,All causes,Rate,2017,460268.4188,488871.9256,433109.0025
+Incidence,China,Both,All Ages,All causes,Number,2017,5860536828,6262568253,5542015760
+Incidence,China,Both,All Ages,All causes,Percent,2017,1,1,1
+Incidence,China,Both,All Ages,All causes,Rate,2017,414911.0224,443373.8193,392360.5452
+Incidence,Colombia,Both,All Ages,All causes,Number,2017,290194765.8,311652354.2,270973605
+Incidence,Colombia,Both,All Ages,All causes,Percent,2017,1,1,1
+Incidence,Colombia,Both,All Ages,All causes,Rate,2017,573437.6657,615838.8074,535455.8036
+Incidence,Comoros,Both,All Ages,All causes,Number,2017,4097534.509,4330320.81,3857819.748
+Incidence,Comoros,Both,All Ages,All causes,Percent,2017,1,1,1
+Incidence,Comoros,Both,All Ages,All causes,Rate,2017,570431.6542,602838.6234,537060.1505
+Incidence,Congo,Both,All Ages,All causes,Number,2017,31718652.01,33697060.48,29732040.68
+Incidence,Congo,Both,All Ages,All causes,Percent,2017,1,1,1
+Incidence,Congo,Both,All Ages,All causes,Rate,2017,645597.084,685865.338,605161.8699
+Incidence,Costa Rica,Both,All Ages,All causes,Number,2017,24276837.07,25776612.04,22807223.12
+Incidence,Costa Rica,Both,All Ages,All causes,Percent,2017,1,1,1
+Incidence,Costa Rica,Both,All Ages,All causes,Rate,2017,521663.6415,553890.9894,490084.3975
+Incidence,Cote d'Ivoire,Both,All Ages,All causes,Number,2017,150221792.4,159457338.8,141133347.4
+Incidence,Cote d'Ivoire,Both,All Ages,All causes,Percent,2017,1,1,1
+Incidence,Cote d'Ivoire,Both,All Ages,All causes,Rate,2017,601722.8618,638716.4255,565318.5222
+Incidence,Croatia,Both,All Ages,All causes,Number,2017,18772530.96,19808903.76,17837975.57
+Incidence,Croatia,Both,All Ages,All causes,Percent,2017,1,1,1
+Incidence,Croatia,Both,All Ages,All causes,Rate,2017,439072.6072,463312.4345,417214.1976
+Incidence,Cuba,Both,All Ages,All causes,Number,2017,53701316.34,56709223.07,50863330.88
+Incidence,Cuba,Both,All Ages,All causes,Percent,2017,1,1,1
+Incidence,Cuba,Both,All Ages,All causes,Rate,2017,472030.2283,498469.4852,447084.5656
+Incidence,Cyprus,Both,All Ages,All causes,Number,2017,6209529.363,6679870.302,5800530.419
+Incidence,Cyprus,Both,All Ages,All causes,Percent,2017,1,1,1
+Incidence,Cyprus,Both,All Ages,All causes,Rate,2017,491792.4331,529043.2618,459399.8677
+Incidence,Czech Republic,Both,All Ages,All causes,Number,2017,49274385.52,52055982.03,46858790.33
+Incidence,Czech Republic,Both,All Ages,All causes,Percent,2017,1,1,1
+Incidence,Czech Republic,Both,All Ages,All causes,Rate,2017,465171.664,491431.1468,442367.3932
+Incidence,Democratic Republic of the Congo,Both,All Ages,All causes,Number,2017,530720810.1,561260417.1,500282339.2
+Incidence,Democratic Republic of the Congo,Both,All Ages,All causes,Percent,2017,1,1,1
+Incidence,Democratic Republic of the Congo,Both,All Ages,All causes,Rate,2017,656145.1086,693902.0861,618513.1683
+Incidence,Denmark,Both,All Ages,All causes,Number,2017,28345045.87,30292642.82,26593219.11
+Incidence,Denmark,Both,All Ages,All causes,Percent,2017,1,1,1
+Incidence,Denmark,Both,All Ages,All causes,Rate,2017,494481.341,528457.3084,463920.5987
+Incidence,Djibouti,Both,All Ages,All causes,Number,2017,5777837.087,6147834.52,5425476.777
+Incidence,Djibouti,Both,All Ages,All causes,Percent,2017,1,1,1
+Incidence,Djibouti,Both,All Ages,All causes,Rate,2017,519075.9747,552316.2297,487420.2238
+Incidence,Dominica,Both,All Ages,All causes,Number,2017,346979.8227,368712.8738,327629.5133
+Incidence,Dominica,Both,All Ages,All causes,Percent,2017,1,1,1
+Incidence,Dominica,Both,All Ages,All causes,Rate,2017,503357.2403,534884.9775,475286.1028
+Incidence,Dominican Republic,Both,All Ages,All causes,Number,2017,53117911.02,56170267.23,50250293.73
+Incidence,Dominican Republic,Both,All Ages,All causes,Percent,2017,1,1,1
+Incidence,Dominican Republic,Both,All Ages,All causes,Rate,2017,508220.2754,537424.5359,480783.5554
+Incidence,Ecuador,Both,All Ages,All causes,Number,2017,90722419.88,96479991.27,85134795.12
+Incidence,Ecuador,Both,All Ages,All causes,Percent,2017,1,1,1
+Incidence,Ecuador,Both,All Ages,All causes,Rate,2017,543697.655,578202.6656,510211.1311
+Incidence,Egypt,Both,All Ages,All causes,Number,2017,464345684.4,490584934,437157262.6
+Incidence,Egypt,Both,All Ages,All causes,Percent,2017,1,1,1
+Incidence,Egypt,Both,All Ages,All causes,Rate,2017,481266.9882,508462.427,453087.7882
+Incidence,El Salvador,Both,All Ages,All causes,Number,2017,33772574.27,35767543.56,31740541.78
+Incidence,El Salvador,Both,All Ages,All causes,Percent,2017,1,1,1
+Incidence,El Salvador,Both,All Ages,All causes,Rate,2017,554836.026,587610.5733,521452.5822
+Incidence,Equatorial Guinea,Both,All Ages,All causes,Number,2017,8991751.32,9676695.426,8379242.272
+Incidence,Equatorial Guinea,Both,All Ages,All causes,Percent,2017,1,1,1
+Incidence,Equatorial Guinea,Both,All Ages,All causes,Rate,2017,668516.3293,719440.3711,622977.6699
+Incidence,Eritrea,Both,All Ages,All causes,Number,2017,33854277.11,35985523.82,31761015.62
+Incidence,Eritrea,Both,All Ages,All causes,Percent,2017,1,1,1
+Incidence,Eritrea,Both,All Ages,All causes,Rate,2017,577784.1993,614157.7621,542058.9227
+Incidence,Estonia,Both,All Ages,All causes,Number,2017,5909039.057,6244231.726,5616986.951
+Incidence,Estonia,Both,All Ages,All causes,Percent,2017,1,1,1
+Incidence,Estonia,Both,All Ages,All causes,Rate,2017,449512.6909,475011.483,427295.6896
+Incidence,Ethiopia,Both,All Ages,All causes,Number,2017,567663444.8,598338390.7,537527332.9
+Incidence,Ethiopia,Both,All Ages,All causes,Percent,2017,1,1,1
+Incidence,Ethiopia,Both,All Ages,All causes,Rate,2017,551751.2785,581566.3754,522459.9115
+Incidence,Fiji,Both,All Ages,All causes,Number,2017,5074864.385,5383569.137,4796017.302
+Incidence,Fiji,Both,All Ages,All causes,Percent,2017,1,1,1
+Incidence,Fiji,Both,All Ages,All causes,Rate,2017,559559.7703,593597.8739,528813.8039
+Incidence,Finland,Both,All Ages,All causes,Number,2017,27897563.52,29737379.12,26247168.5
+Incidence,Finland,Both,All Ages,All causes,Percent,2017,1,1,1
+Incidence,Finland,Both,All Ages,All causes,Rate,2017,505575.8508,538918.0579,475666.4336
+Incidence,France,Both,All Ages,All causes,Number,2017,317373912.9,340573035.1,296981681.3
+Incidence,France,Both,All Ages,All causes,Percent,2017,1,1,1
+Incidence,France,Both,All Ages,All causes,Rate,2017,482972.697,518276.6151,451940.2438
+Incidence,Gabon,Both,All Ages,All causes,Number,2017,11038845.94,11754271.51,10355019.59
+Incidence,Gabon,Both,All Ages,All causes,Percent,2017,1,1,1
+Incidence,Gabon,Both,All Ages,All causes,Rate,2017,648306.6611,690323.2963,608145.8346
+Incidence,Gambia,Both,All Ages,All causes,Number,2017,10426800.86,10963001.79,9890081.27
+Incidence,Gambia,Both,All Ages,All causes,Percent,2017,1,1,1
+Incidence,Gambia,Both,All Ages,All causes,Rate,2017,488945.0974,514089.2256,463776.6478
+Incidence,Georgia,Both,All Ages,All causes,Number,2017,13601572.41,14245216.91,12966680.24
+Incidence,Georgia,Both,All Ages,All causes,Percent,2017,1,1,1
+Incidence,Georgia,Both,All Ages,All causes,Rate,2017,368474.3048,385910.9991,351274.7162
+Incidence,Germany,Both,All Ages,All causes,Number,2017,407637190.7,435698746.8,383463419.6
+Incidence,Germany,Both,All Ages,All causes,Percent,2017,1,1,1
+Incidence,Germany,Both,All Ages,All causes,Rate,2017,489392.5461,523082.1031,460370.5047
+Incidence,Ghana,Both,All Ages,All causes,Number,2017,168102755,178239217.8,158550196
+Incidence,Ghana,Both,All Ages,All causes,Percent,2017,1,1,1
+Incidence,Ghana,Both,All Ages,All causes,Rate,2017,556534.122,590092.6881,524908.6732
+Incidence,Global,Both,All Ages,All causes,Number,2017,38480253188,40567963009,36469390070
+Incidence,Global,Both,All Ages,All causes,Percent,2017,1,1,1
+Incidence,Global,Both,All Ages,All causes,Rate,2017,503637.5158,530961.8939,477318.9232
+Incidence,Greece,Both,All Ages,All causes,Number,2017,50506831.31,53985793.71,47428440.56
+Incidence,Greece,Both,All Ages,All causes,Percent,2017,1,1,1
+Incidence,Greece,Both,All Ages,All causes,Rate,2017,485534.3659,518978.4716,455941.0522
+Incidence,Greenland,Both,All Ages,All causes,Number,2017,287376.8462,308755.2097,268211.4803
+Incidence,Greenland,Both,All Ages,All causes,Percent,2017,1,1,1
+Incidence,Greenland,Both,All Ages,All causes,Rate,2017,511753.4916,549823.546,477624.2879
+Incidence,Grenada,Both,All Ages,All causes,Number,2017,585484.0692,618335.4977,553170.6039
+Incidence,Grenada,Both,All Ages,All causes,Percent,2017,1,1,1
+Incidence,Grenada,Both,All Ages,All causes,Rate,2017,528040.5145,557668.7933,498897.4178
+Incidence,Guam,Both,All Ages,All causes,Number,2017,1073270.178,1138235.715,1011707.282
+Incidence,Guam,Both,All Ages,All causes,Percent,2017,1,1,1
+Incidence,Guam,Both,All Ages,All causes,Rate,2017,639472.6973,678180.2734,602792.4729
+Incidence,Guatemala,Both,All Ages,All causes,Number,2017,92924374.87,98373980.48,87232647.6
+Incidence,Guatemala,Both,All Ages,All causes,Percent,2017,1,1,1
+Incidence,Guatemala,Both,All Ages,All causes,Rate,2017,549061.88,581261.9428,515431.194
+Incidence,Guinea,Both,All Ages,All causes,Number,2017,69199987.35,72932474.35,65118905.83
+Incidence,Guinea,Both,All Ages,All causes,Percent,2017,1,1,1
+Incidence,Guinea,Both,All Ages,All causes,Rate,2017,585448.9349,617026.6941,550921.9802
+Incidence,Guinea-Bissau,Both,All Ages,All causes,Number,2017,10300208.67,10925820.32,9674672.105
+Incidence,Guinea-Bissau,Both,All Ages,All causes,Percent,2017,1,1,1
+Incidence,Guinea-Bissau,Both,All Ages,All causes,Rate,2017,555105.5766,588821.4485,521393.7515
+Incidence,Guyana,Both,All Ages,All causes,Number,2017,3749708.231,3972703.059,3524072.878
+Incidence,Guyana,Both,All Ages,All causes,Percent,2017,1,1,1
+Incidence,Guyana,Both,All Ages,All causes,Rate,2017,505145.6919,535186.663,474748.9998
+Incidence,Haiti,Both,All Ages,All causes,Number,2017,71007481.59,75572239.49,66496656.61
+Incidence,Haiti,Both,All Ages,All causes,Percent,2017,1,1,1
+Incidence,Haiti,Both,All Ages,All causes,Rate,2017,600494.4676,639097.6091,562347.4247
+Incidence,Honduras,Both,All Ages,All causes,Number,2017,55484337.72,58856269.83,51878160.36
+Incidence,Honduras,Both,All Ages,All causes,Percent,2017,1,1,1
+Incidence,Honduras,Both,All Ages,All causes,Rate,2017,584118.5435,619616.9951,546154.0448
+Incidence,Hungary,Both,All Ages,All causes,Number,2017,46576153.35,49072498.24,44253992.96
+Incidence,Hungary,Both,All Ages,All causes,Percent,2017,1,1,1
+Incidence,Hungary,Both,All Ages,All causes,Rate,2017,478815.7671,504478.8845,454943.3145
+Incidence,Iceland,Both,All Ages,All causes,Number,2017,1664581.242,1785934.271,1554651.821
+Incidence,Iceland,Both,All Ages,All causes,Percent,2017,1,1,1
+Incidence,Iceland,Both,All Ages,All causes,Rate,2017,493252.3096,529211.9013,460677.7862
+Incidence,India,Both,All Ages,All causes,Number,2017,7371323070,7770758300,6961909243
+Incidence,India,Both,All Ages,All causes,Percent,2017,1,1,1
+Incidence,India,Both,All Ages,All causes,Rate,2017,533937.0367,562869.8702,504281.41
+Incidence,Indonesia,Both,All Ages,All causes,Number,2017,1437497168,1528827814,1355347250
+Incidence,Indonesia,Both,All Ages,All causes,Percent,2017,1,1,1
+Incidence,Indonesia,Both,All Ages,All causes,Rate,2017,556878.7602,592259.7671,525054.3188
+Incidence,Iran,Both,All Ages,All causes,Number,2017,427382234,453721547.4,401164698.3
+Incidence,Iran,Both,All Ages,All causes,Percent,2017,1,1,1
+Incidence,Iran,Both,All Ages,All causes,Rate,2017,520080.8705,552133.1459,488176.7864
+Incidence,Iraq,Both,All Ages,All causes,Number,2017,231914368,246971882.6,216773522.2
+Incidence,Iraq,Both,All Ages,All causes,Percent,2017,1,1,1
+Incidence,Iraq,Both,All Ages,All causes,Rate,2017,535544.0678,570315.3616,500580.3431
+Incidence,Ireland,Both,All Ages,All causes,Number,2017,24049599.14,25904172.46,22446167.82
+Incidence,Ireland,Both,All Ages,All causes,Percent,2017,1,1,1
+Incidence,Ireland,Both,All Ages,All causes,Rate,2017,494791.4816,532947.0898,461802.8171
+Incidence,Israel,Both,All Ages,All causes,Number,2017,45725170.91,49336429.08,42270682.52
+Incidence,Israel,Both,All Ages,All causes,Percent,2017,1,1,1
+Incidence,Israel,Both,All Ages,All causes,Rate,2017,510941.5471,551294.4162,472340.4526
+Incidence,Italy,Both,All Ages,All causes,Number,2017,285755929.8,306024428.1,268209606.2
+Incidence,Italy,Both,All Ages,All causes,Percent,2017,1,1,1
+Incidence,Italy,Both,All Ages,All causes,Rate,2017,471564.0484,505011.8062,442608.5149
+Incidence,Jamaica,Both,All Ages,All causes,Number,2017,13149123.06,13972275.68,12337764.29
+Incidence,Jamaica,Both,All Ages,All causes,Percent,2017,1,1,1
+Incidence,Jamaica,Both,All Ages,All causes,Rate,2017,473115.2896,502732.9372,443921.9937
+Incidence,Japan,Both,All Ages,All causes,Number,2017,567015120.3,606064553.8,534089306.5
+Incidence,Japan,Both,All Ages,All causes,Percent,2017,1,1,1
+Incidence,Japan,Both,All Ages,All causes,Rate,2017,441726.9646,472148.0013,416076.4674
+Incidence,Jordan,Both,All Ages,All causes,Number,2017,46014882.9,48790747.01,43319846.72
+Incidence,Jordan,Both,All Ages,All causes,Percent,2017,1,1,1
+Incidence,Jordan,Both,All Ages,All causes,Rate,2017,432126.9864,458195.1999,406817.8301
+Incidence,Kazakhstan,Both,All Ages,All causes,Number,2017,75753061.91,79755426.22,71799764.03
+Incidence,Kazakhstan,Both,All Ages,All causes,Percent,2017,1,1,1
+Incidence,Kazakhstan,Both,All Ages,All causes,Rate,2017,423099.0163,445453.1807,401018.8996
+Incidence,Kenya,Both,All Ages,All causes,Number,2017,298855322.5,318489096,279762531.5
+Incidence,Kenya,Both,All Ages,All causes,Percent,2017,1,1,1
+Incidence,Kenya,Both,All Ages,All causes,Rate,2017,618405.2515,659032.3636,578897.5657
+Incidence,Kiribati,Both,All Ages,All causes,Number,2017,698800.1736,743450.8484,657684.137
+Incidence,Kiribati,Both,All Ages,All causes,Percent,2017,1,1,1
+Incidence,Kiribati,Both,All Ages,All causes,Rate,2017,590998.7184,628761.29,556225.5088
+Incidence,Kuwait,Both,All Ages,All causes,Number,2017,20944737.69,22497559.2,19601234.25
+Incidence,Kuwait,Both,All Ages,All causes,Percent,2017,1,1,1
+Incidence,Kuwait,Both,All Ages,All causes,Rate,2017,491406.7258,527839.1198,459885.3653
+Incidence,Kyrgyzstan,Both,All Ages,All causes,Number,2017,22791139.04,23897558.7,21705132.42
+Incidence,Kyrgyzstan,Both,All Ages,All causes,Percent,2017,1,1,1
+Incidence,Kyrgyzstan,Both,All Ages,All causes,Rate,2017,357868.6956,375241.8053,340816.1133
+Incidence,Laos,Both,All Ages,All causes,Number,2017,35707406.55,37937339.67,33603443.27
+Incidence,Laos,Both,All Ages,All causes,Percent,2017,1,1,1
+Incidence,Laos,Both,All Ages,All causes,Rate,2017,512288.4232,544280.9152,482103.2001
+Incidence,Latvia,Both,All Ages,All causes,Number,2017,8750194.713,9224096.626,8304110.116
+Incidence,Latvia,Both,All Ages,All causes,Percent,2017,1,1,1
+Incidence,Latvia,Both,All Ages,All causes,Rate,2017,449782.6496,474142.4342,426852.7471
+Incidence,Lebanon,Both,All Ages,All causes,Number,2017,44163950.29,47082602.57,41314128.33
+Incidence,Lebanon,Both,All Ages,All causes,Percent,2017,1,1,1
+Incidence,Lebanon,Both,All Ages,All causes,Rate,2017,518844.6495,553133.4102,485364.5177
+Incidence,Lesotho,Both,All Ages,All causes,Number,2017,11330750.08,12005772.34,10661464.58
+Incidence,Lesotho,Both,All Ages,All causes,Percent,2017,1,1,1
+Incidence,Lesotho,Both,All Ages,All causes,Rate,2017,581786.6423,616446.2133,547421.6302
+Incidence,Liberia,Both,All Ages,All causes,Number,2017,30181350.99,32017725.36,28463517.48
+Incidence,Liberia,Both,All Ages,All causes,Percent,2017,1,1,1
+Incidence,Liberia,Both,All Ages,All causes,Rate,2017,639078.1934,677962.6959,602703.7469
+Incidence,Libya,Both,All Ages,All causes,Number,2017,37090094.1,39532009.99,34681950.7
+Incidence,Libya,Both,All Ages,All causes,Percent,2017,1,1,1
+Incidence,Libya,Both,All Ages,All causes,Rate,2017,536857.6025,572202.9188,502001.1232
+Incidence,Lithuania,Both,All Ages,All causes,Number,2017,13001317.04,13728528.64,12368954.67
+Incidence,Lithuania,Both,All Ages,All causes,Percent,2017,1,1,1
+Incidence,Lithuania,Both,All Ages,All causes,Rate,2017,456563.4602,482100.7377,434356.9751
+Incidence,Luxembourg,Both,All Ages,All causes,Number,2017,2932183.15,3141572.014,2745285.539
+Incidence,Luxembourg,Both,All Ages,All causes,Percent,2017,1,1,1
+Incidence,Luxembourg,Both,All Ages,All causes,Rate,2017,496520.1865,531976.9749,464871.9463
+Incidence,Macedonia,Both,All Ages,All causes,Number,2017,9577797.311,10135236.54,9074914.143
+Incidence,Macedonia,Both,All Ages,All causes,Percent,2017,1,1,1
+Incidence,Macedonia,Both,All Ages,All causes,Rate,2017,440393.2616,466024.6748,417270.371
+Incidence,Madagascar,Both,All Ages,All causes,Number,2017,157411172.8,167030880.8,148365549.7
+Incidence,Madagascar,Both,All Ages,All causes,Percent,2017,1,1,1
+Incidence,Madagascar,Both,All Ages,All causes,Rate,2017,602905.02,639749.7379,568259.1212
+Incidence,Malawi,Both,All Ages,All causes,Number,2017,112490960.6,119908759.8,105390971.2
+Incidence,Malawi,Both,All Ages,All causes,Percent,2017,1,1,1
+Incidence,Malawi,Both,All Ages,All causes,Rate,2017,654351.3671,697500.1413,613051.2683
+Incidence,Malaysia,Both,All Ages,All causes,Number,2017,148656715.8,157850024.7,139842647.8
+Incidence,Malaysia,Both,All Ages,All causes,Percent,2017,1,1,1
+Incidence,Malaysia,Both,All Ages,All causes,Rate,2017,485174.7763,515179.217,456408.0743
+Incidence,Maldives,Both,All Ages,All causes,Number,2017,2141866.784,2294509.403,2009415.967
+Incidence,Maldives,Both,All Ages,All causes,Percent,2017,1,1,1
+Incidence,Maldives,Both,All Ages,All causes,Rate,2017,467043.763,500328.1782,438162.2619
+Incidence,Mali,Both,All Ages,All causes,Number,2017,116406503.1,123218472,109840414.7
+Incidence,Mali,Both,All Ages,All causes,Percent,2017,1,1,1
+Incidence,Mali,Both,All Ages,All causes,Rate,2017,574741.1486,608374.3112,542321.9871
+Incidence,Malta,Both,All Ages,All causes,Number,2017,2069461.547,2221163.04,1941930.645
+Incidence,Malta,Both,All Ages,All causes,Percent,2017,1,1,1
+Incidence,Malta,Both,All Ages,All causes,Rate,2017,476316.0617,511232.3218,446963.0076
+Incidence,Marshall Islands,Both,All Ages,All causes,Number,2017,319832.4053,339667.9191,301260.0202
+Incidence,Marshall Islands,Both,All Ages,All causes,Percent,2017,1,1,1
+Incidence,Marshall Islands,Both,All Ages,All causes,Rate,2017,567978.5567,603203.7132,534996.5441
+Incidence,Mauritania,Both,All Ages,All causes,Number,2017,21457606.43,22794259.9,20164143.21
+Incidence,Mauritania,Both,All Ages,All causes,Percent,2017,1,1,1
+Incidence,Mauritania,Both,All Ages,All causes,Rate,2017,548238.0303,582389.2889,515190.2751
+Incidence,Mauritius,Both,All Ages,All causes,Number,2017,6147856.593,6524134.54,5795964.818
+Incidence,Mauritius,Both,All Ages,All causes,Percent,2017,1,1,1
+Incidence,Mauritius,Both,All Ages,All causes,Rate,2017,483279.5092,512858.5046,455617.497
+Incidence,Mexico,Both,All Ages,All causes,Number,2017,612613929.8,652651573.7,574721386.5
+Incidence,Mexico,Both,All Ages,All causes,Percent,2017,1,1,1
+Incidence,Mexico,Both,All Ages,All causes,Rate,2017,484013.0247,515645.9017,454074.9453
+Incidence,Micronesia,Both,All Ages,All causes,Number,2017,591600.2744,630067.7133,555265.234
+Incidence,Micronesia,Both,All Ages,All causes,Percent,2017,1,1,1
+Incidence,Micronesia,Both,All Ages,All causes,Rate,2017,569249.7531,606263.9011,534287.4421
+Incidence,Moldova,Both,All Ages,All causes,Number,2017,16208504.57,17197328.08,15300015.37
+Incidence,Moldova,Both,All Ages,All causes,Percent,2017,1,1,1
+Incidence,Moldova,Both,All Ages,All causes,Rate,2017,435499.3641,462067.6393,411089.5572
+Incidence,Mongolia,Both,All Ages,All causes,Number,2017,13075615.27,13753184.09,12416699.18
+Incidence,Mongolia,Both,All Ages,All causes,Percent,2017,1,1,1
+Incidence,Mongolia,Both,All Ages,All causes,Rate,2017,402150.2304,422989.361,381884.7782
+Incidence,Montenegro,Both,All Ages,All causes,Number,2017,2727033.908,2884999.046,2580732.483
+Incidence,Montenegro,Both,All Ages,All causes,Percent,2017,1,1,1
+Incidence,Montenegro,Both,All Ages,All causes,Rate,2017,435407.28,460628.518,412048.3092
+Incidence,Morocco,Both,All Ages,All causes,Number,2017,191562614.5,204087020.3,179561039
+Incidence,Morocco,Both,All Ages,All causes,Percent,2017,1,1,1
+Incidence,Morocco,Both,All Ages,All causes,Rate,2017,539781.5399,575072.5754,505963.7257
+Incidence,Mozambique,Both,All Ages,All causes,Number,2017,166894573.7,177250108.3,157627790.6
+Incidence,Mozambique,Both,All Ages,All causes,Percent,2017,1,1,1
+Incidence,Mozambique,Both,All Ages,All causes,Rate,2017,555661.3424,590139.2174,524808.3729
+Incidence,Myanmar,Both,All Ages,All causes,Number,2017,258703171.1,274588905.8,244059190
+Incidence,Myanmar,Both,All Ages,All causes,Percent,2017,1,1,1
+Incidence,Myanmar,Both,All Ages,All causes,Rate,2017,490014.4974,520103.9636,462277.06
+Incidence,Namibia,Both,All Ages,All causes,Number,2017,13859745.55,14678454.09,13019775.99
+Incidence,Namibia,Both,All Ages,All causes,Percent,2017,1,1,1
+Incidence,Namibia,Both,All Ages,All causes,Rate,2017,588898.6777,623685.4908,553208.4872
+Incidence,Nepal,Both,All Ages,All causes,Number,2017,152838730.6,162124844.5,143676990.5
+Incidence,Nepal,Both,All Ages,All causes,Percent,2017,1,1,1
+Incidence,Nepal,Both,All Ages,All causes,Rate,2017,511311.2706,542377.3145,480661.3107
+Incidence,Netherlands,Both,All Ages,All causes,Number,2017,81330935.46,87177774.69,76285623.65
+Incidence,Netherlands,Both,All Ages,All causes,Percent,2017,1,1,1
+Incidence,Netherlands,Both,All Ages,All causes,Rate,2017,477599.7976,511934.2021,447972.204
+Incidence,New Zealand,Both,All Ages,All causes,Number,2017,21202086.22,22707490.13,19896309.98
+Incidence,New Zealand,Both,All Ages,All causes,Percent,2017,1,1,1
+Incidence,New Zealand,Both,All Ages,All causes,Rate,2017,476625.4164,510467.0752,447271.4114
+Incidence,Nicaragua,Both,All Ages,All causes,Number,2017,33387190.4,35531601.05,31288289.03
+Incidence,Nicaragua,Both,All Ages,All causes,Percent,2017,1,1,1
+Incidence,Nicaragua,Both,All Ages,All causes,Rate,2017,521954.5927,555478.9766,489141.6728
+Incidence,Niger,Both,All Ages,All causes,Number,2017,127009655.3,134962268.3,119362930.4
+Incidence,Niger,Both,All Ages,All causes,Percent,2017,1,1,1
+Incidence,Niger,Both,All Ages,All causes,Rate,2017,594170.9263,631374.4867,558398.3575
+Incidence,Nigeria,Both,All Ages,All causes,Number,2017,995834512.6,1046656260,947391625.3
+Incidence,Nigeria,Both,All Ages,All causes,Percent,2017,1,1,1
+Incidence,Nigeria,Both,All Ages,All causes,Rate,2017,483208.5176,507868.7406,459702.5882
+Incidence,North Korea,Both,All Ages,All causes,Number,2017,118053154.2,125077090.5,111273567.8
+Incidence,North Korea,Both,All Ages,All causes,Percent,2017,1,1,1
+Incidence,North Korea,Both,All Ages,All causes,Rate,2017,459053.5028,486366.3057,432690.8622
+Incidence,Norway,Both,All Ages,All causes,Number,2017,28884396.15,30786472.24,27155644.83
+Incidence,Norway,Both,All Ages,All causes,Percent,2017,1,1,1
+Incidence,Norway,Both,All Ages,All causes,Rate,2017,548801.4461,584940.755,515955.2957
+Incidence,Oman,Both,All Ages,All causes,Number,2017,22701673.11,24387271.49,21185389.41
+Incidence,Oman,Both,All Ages,All causes,Percent,2017,1,1,1
+Incidence,Oman,Both,All Ages,All causes,Rate,2017,500498.1937,537660.1659,467069.0605
+Incidence,Pakistan,Both,All Ages,All causes,Number,2017,1205149791,1277156025,1134549385
+Incidence,Pakistan,Both,All Ages,All causes,Percent,2017,1,1,1
+Incidence,Pakistan,Both,All Ages,All causes,Rate,2017,562398.6999,596001.3379,529452.1096
+Incidence,Palestine,Both,All Ages,All causes,Number,2017,25737227.93,27565890.77,24025292.15
+Incidence,Palestine,Both,All Ages,All causes,Percent,2017,1,1,1
+Incidence,Palestine,Both,All Ages,All causes,Rate,2017,530435.1866,568123.2825,495152.7941
+Incidence,Panama,Both,All Ages,All causes,Number,2017,22229122.69,23574101.93,20937267.97
+Incidence,Panama,Both,All Ages,All causes,Percent,2017,1,1,1
+Incidence,Panama,Both,All Ages,All causes,Rate,2017,566912.764,601213.9781,533966.3927
+Incidence,Papua New Guinea,Both,All Ages,All causes,Number,2017,54218182.67,57540780.71,50868219.48
+Incidence,Papua New Guinea,Both,All Ages,All causes,Percent,2017,1,1,1
+Incidence,Papua New Guinea,Both,All Ages,All causes,Rate,2017,587568.5123,623575.8791,551264.5864
+Incidence,Paraguay,Both,All Ages,All causes,Number,2017,38653661.89,41216940.89,36299429.55
+Incidence,Paraguay,Both,All Ages,All causes,Percent,2017,1,1,1
+Incidence,Paraguay,Both,All Ages,All causes,Rate,2017,557678.3489,594660.232,523712.5009
+Incidence,Peru,Both,All Ages,All causes,Number,2017,195588876.8,207317787,184521841
+Incidence,Peru,Both,All Ages,All causes,Percent,2017,1,1,1
+Incidence,Peru,Both,All Ages,All causes,Rate,2017,588775.3259,624082.5121,555460.56
+Incidence,Philippines,Both,All Ages,All causes,Number,2017,577537671.9,614574073.2,543634697.7
+Incidence,Philippines,Both,All Ages,All causes,Percent,2017,1,1,1
+Incidence,Philippines,Both,All Ages,All causes,Rate,2017,558165.86,593959.9836,525400.0619
+Incidence,Poland,Both,All Ages,All causes,Number,2017,169807751.2,179231698.4,161264260
+Incidence,Poland,Both,All Ages,All causes,Percent,2017,1,1,1
+Incidence,Poland,Both,All Ages,All causes,Rate,2017,442287.6111,466833.5759,420034.9149
+Incidence,Portugal,Both,All Ages,All causes,Number,2017,50285483.54,53879144.44,47174874.35
+Incidence,Portugal,Both,All Ages,All causes,Percent,2017,1,1,1
+Incidence,Portugal,Both,All Ages,All causes,Rate,2017,470762.4182,504405.5369,441641.5308
+Incidence,Qatar,Both,All Ages,All causes,Number,2017,12406955.54,13493982.59,11507825.71
+Incidence,Qatar,Both,All Ages,All causes,Percent,2017,1,1,1
+Incidence,Qatar,Both,All Ages,All causes,Rate,2017,451603.637,491170.5853,418876.0027
+Incidence,Romania,Both,All Ages,All causes,Number,2017,89351161.87,94290289.92,84830588.6
+Incidence,Romania,Both,All Ages,All causes,Percent,2017,1,1,1
+Incidence,Romania,Both,All Ages,All causes,Rate,2017,459772.7588,485187.9463,436511.3216
+Incidence,Russian Federation,Both,All Ages,All causes,Number,2017,694912635,735770623.8,660070871
+Incidence,Russian Federation,Both,All Ages,All causes,Percent,2017,1,1,1
+Incidence,Russian Federation,Both,All Ages,All causes,Rate,2017,475349.3846,503297.9623,451516.1569
+Incidence,Rwanda,Both,All Ages,All causes,Number,2017,71883575.9,76203131.43,67570817.34
+Incidence,Rwanda,Both,All Ages,All causes,Percent,2017,1,1,1
+Incidence,Rwanda,Both,All Ages,All causes,Rate,2017,572587.1319,606994.4618,538233.9431
+Incidence,Saint Lucia,Both,All Ages,All causes,Number,2017,907852.7024,963443.1005,858227.8154
+Incidence,Saint Lucia,Both,All Ages,All causes,Percent,2017,1,1,1
+Incidence,Saint Lucia,Both,All Ages,All causes,Rate,2017,514438.6221,545939.1593,486318.4673
+Incidence,Saint Vincent and the Grenadines,Both,All Ages,All causes,Number,2017,572241.9894,606450.1039,540428.0746
+Incidence,Saint Vincent and the Grenadines,Both,All Ages,All causes,Percent,2017,1,1,1
+Incidence,Saint Vincent and the Grenadines,Both,All Ages,All causes,Rate,2017,501475.5379,531453.2971,473595.8989
+Incidence,Samoa,Both,All Ages,All causes,Number,2017,1159244.726,1235527.223,1085089.501
+Incidence,Samoa,Both,All Ages,All causes,Percent,2017,1,1,1
+Incidence,Samoa,Both,All Ages,All causes,Rate,2017,582774.0567,621122.6979,545494.8349
+Incidence,Sao Tome and Principe,Both,All Ages,All causes,Number,2017,1088602.824,1151936.11,1026637.398
+Incidence,Sao Tome and Principe,Both,All Ages,All causes,Percent,2017,1,1,1
+Incidence,Sao Tome and Principe,Both,All Ages,All causes,Rate,2017,543741.4175,575375.4808,512790.5804
+Incidence,Saudi Arabia,Both,All Ages,All causes,Number,2017,169768385.3,181619260,158065093.6
+Incidence,Saudi Arabia,Both,All Ages,All causes,Percent,2017,1,1,1
+Incidence,Saudi Arabia,Both,All Ages,All causes,Rate,2017,492881.549,527287.7046,458903.8651
+Incidence,Senegal,Both,All Ages,All causes,Number,2017,85263348.94,90207180.43,80290716.62
+Incidence,Senegal,Both,All Ages,All causes,Percent,2017,1,1,1
+Incidence,Senegal,Both,All Ages,All causes,Rate,2017,580495.3182,614154.2241,546640.3287
+Incidence,Serbia,Both,All Ages,All causes,Number,2017,39198399.6,41414550.14,37196204.71
+Incidence,Serbia,Both,All Ages,All causes,Percent,2017,1,1,1
+Incidence,Serbia,Both,All Ages,All causes,Rate,2017,441716.9818,466690.2291,419154.7473
+Incidence,Seychelles,Both,All Ages,All causes,Number,2017,481877.4749,510725.8598,455474.4601
+Incidence,Seychelles,Both,All Ages,All causes,Percent,2017,1,1,1
+Incidence,Seychelles,Both,All Ages,All causes,Rate,2017,477545.4394,506134.4799,451379.7854
+Incidence,Sierra Leone,Both,All Ages,All causes,Number,2017,43551296.1,45799538.17,41264205.5
+Incidence,Sierra Leone,Both,All Ages,All causes,Percent,2017,1,1,1
+Incidence,Sierra Leone,Both,All Ages,All causes,Rate,2017,556228.5143,584942.616,527018.2468
+Incidence,Singapore,Both,All Ages,All causes,Number,2017,24834286.61,26750938.7,23164769.3
+Incidence,Singapore,Both,All Ages,All causes,Percent,2017,1,1,1
+Incidence,Singapore,Both,All Ages,All causes,Rate,2017,445979.5578,480399.2157,415998.0002
+Incidence,Slovakia,Both,All Ages,All causes,Number,2017,24608033.33,25978499.75,23330511.39
+Incidence,Slovakia,Both,All Ages,All causes,Percent,2017,1,1,1
+Incidence,Slovakia,Both,All Ages,All causes,Rate,2017,454088.9291,479377.9728,430514.9782
+Incidence,Slovenia,Both,All Ages,All causes,Number,2017,9426225.141,9932898.432,8971548.972
+Incidence,Slovenia,Both,All Ages,All causes,Percent,2017,1,1,1
+Incidence,Slovenia,Both,All Ages,All causes,Rate,2017,455624.9387,480115.4408,433647.7634
+Incidence,Solomon Islands,Both,All Ages,All causes,Number,2017,3820716.093,4067506.301,3588385.297
+Incidence,Solomon Islands,Both,All Ages,All causes,Percent,2017,1,1,1
+Incidence,Solomon Islands,Both,All Ages,All causes,Rate,2017,599227.6981,637933.4078,562789.7517
+Incidence,Somalia,Both,All Ages,All causes,Number,2017,99443549.18,105695118.4,93190032.35
+Incidence,Somalia,Both,All Ages,All causes,Percent,2017,1,1,1
+Incidence,Somalia,Both,All Ages,All causes,Rate,2017,589107.0659,626141.5807,552061.0133
+Incidence,South Africa,Both,All Ages,All causes,Number,2017,288593326.1,306006801.9,271970000.7
+Incidence,South Africa,Both,All Ages,All causes,Percent,2017,1,1,1
+Incidence,South Africa,Both,All Ages,All causes,Rate,2017,525165.2558,556853.2804,494915.1004
+Incidence,South Korea,Both,All Ages,All causes,Number,2017,230923443.9,247815059.3,217141619.2
+Incidence,South Korea,Both,All Ages,All causes,Percent,2017,1,1,1
+Incidence,South Korea,Both,All Ages,All causes,Rate,2017,438428.3153,470498.5216,412262.3181
+Incidence,South Sudan,Both,All Ages,All causes,Number,2017,65314819.05,69528547.6,61276510.28
+Incidence,South Sudan,Both,All Ages,All causes,Percent,2017,1,1,1
+Incidence,South Sudan,Both,All Ages,All causes,Rate,2017,657024.0043,699411.3345,616401.2814
+Incidence,Spain,Both,All Ages,All causes,Number,2017,220070334.6,236889703.6,206246778.8
+Incidence,Spain,Both,All Ages,All causes,Percent,2017,1,1,1
+Incidence,Spain,Both,All Ages,All causes,Rate,2017,474399.8054,510656.8748,444600.7313
+Incidence,Sri Lanka,Both,All Ages,All causes,Number,2017,101324983.1,107482870.8,95390770.75
+Incidence,Sri Lanka,Both,All Ages,All causes,Percent,2017,1,1,1
+Incidence,Sri Lanka,Both,All Ages,All causes,Rate,2017,469174.5252,497687.9676,441696.7881
+Incidence,Sudan,Both,All Ages,All causes,Number,2017,242265704.1,258125071.7,227856414
+Incidence,Sudan,Both,All Ages,All causes,Percent,2017,1,1,1
+Incidence,Sudan,Both,All Ages,All causes,Rate,2017,601819.3781,641216.1007,566024.8357
+Incidence,Suriname,Both,All Ages,All causes,Number,2017,2908629.271,3076543.026,2742460.81
+Incidence,Suriname,Both,All Ages,All causes,Percent,2017,1,1,1
+Incidence,Suriname,Both,All Ages,All causes,Rate,2017,508090.2086,537422.0095,479063.2821
+Incidence,Swaziland,Both,All Ages,All causes,Number,2017,6419403.319,6812261.64,6012190.567
+Incidence,Swaziland,Both,All Ages,All causes,Percent,2017,1,1,1
+Incidence,Swaziland,Both,All Ages,All causes,Rate,2017,570900.0651,605838.3342,534685.206
+Incidence,Sweden,Both,All Ages,All causes,Number,2017,51417425.71,54952908.99,48055354.21
+Incidence,Sweden,Both,All Ages,All causes,Percent,2017,1,1,1
+Incidence,Sweden,Both,All Ages,All causes,Rate,2017,511871.0176,547067.4787,478400.9063
+Incidence,Switzerland,Both,All Ages,All causes,Number,2017,42030140.76,45205393.23,39364422.67
+Incidence,Switzerland,Both,All Ages,All causes,Percent,2017,1,1,1
+Incidence,Switzerland,Both,All Ages,All causes,Rate,2017,489115.7229,526066.9651,458094.0655
+Incidence,Syrian Arab Republic,Both,All Ages,All causes,Number,2017,94498169.88,100754377.6,88217340.77
+Incidence,Syrian Arab Republic,Both,All Ages,All causes,Percent,2017,1,1,1
+Incidence,Syrian Arab Republic,Both,All Ages,All causes,Rate,2017,521191.1121,555696.3294,486550.0993
+Incidence,Taiwan (Province of China),Both,All Ages,All causes,Number,2017,101335448.1,107770889,95767513.08
+Incidence,Taiwan (Province of China),Both,All Ages,All causes,Percent,2017,1,1,1
+Incidence,Taiwan (Province of China),Both,All Ages,All causes,Rate,2017,429694.729,456983.0578,406084.9025
+Incidence,Tajikistan,Both,All Ages,All causes,Number,2017,34103041.01,35823317.77,32570486.41
+Incidence,Tajikistan,Both,All Ages,All causes,Percent,2017,1,1,1
+Incidence,Tajikistan,Both,All Ages,All causes,Rate,2017,368932.1125,387542.3396,352352.6935
+Incidence,Tanzania,Both,All Ages,All causes,Number,2017,314438375.1,334318480.8,294648477.8
+Incidence,Tanzania,Both,All Ages,All causes,Percent,2017,1,1,1
+Incidence,Tanzania,Both,All Ages,All causes,Rate,2017,582583.1133,619416.4478,545916.9145
+Incidence,Thailand,Both,All Ages,All causes,Number,2017,320498165.2,337727716,306028612
+Incidence,Thailand,Both,All Ages,All causes,Percent,2017,1,1,1
+Incidence,Thailand,Both,All Ages,All causes,Rate,2017,453795.884,478191.3411,433308.3293
+Incidence,Timor-Leste,Both,All Ages,All causes,Number,2017,6694730.347,7138309.413,6263996.157
+Incidence,Timor-Leste,Both,All Ages,All causes,Percent,2017,1,1,1
+Incidence,Timor-Leste,Both,All Ages,All causes,Rate,2017,519984.5593,554437.667,486529.1225
+Incidence,Togo,Both,All Ages,All causes,Number,2017,46548913.79,49133155.92,44055827.81
+Incidence,Togo,Both,All Ages,All causes,Percent,2017,1,1,1
+Incidence,Togo,Both,All Ages,All causes,Rate,2017,619328.4516,653711.5241,586158.2022
+Incidence,Tonga,Both,All Ages,All causes,Number,2017,587704.1105,626033.1963,552314.1523
+Incidence,Tonga,Both,All Ages,All causes,Percent,2017,1,1,1
+Incidence,Tonga,Both,All Ages,All causes,Rate,2017,571485.0978,608756.4066,537071.8048
+Incidence,Trinidad and Tobago,Both,All Ages,All causes,Number,2017,6578184.828,7003889.281,6197448.893
+Incidence,Trinidad and Tobago,Both,All Ages,All causes,Percent,2017,1,1,1
+Incidence,Trinidad and Tobago,Both,All Ages,All causes,Rate,2017,472637.0176,503223.5225,445281.4626
+Incidence,Tunisia,Both,All Ages,All causes,Number,2017,56267099.88,59824356.32,52830645.17
+Incidence,Tunisia,Both,All Ages,All causes,Percent,2017,1,1,1
+Incidence,Tunisia,Both,All Ages,All causes,Rate,2017,491751.4316,522840.3974,461718.2235
+Incidence,Turkey,Both,All Ages,All causes,Number,2017,418579772.7,446527988.2,393842941.1
+Incidence,Turkey,Both,All Ages,All causes,Percent,2017,1,1,1
+Incidence,Turkey,Both,All Ages,All causes,Rate,2017,520253.736,554990.6356,489508.2727
+Incidence,Turkmenistan,Both,All Ages,All causes,Number,2017,18432600.65,19336490.56,17563077.36
+Incidence,Turkmenistan,Both,All Ages,All causes,Percent,2017,1,1,1
+Incidence,Turkmenistan,Both,All Ages,All causes,Rate,2017,370364.3443,388526.1111,352893.1026
+Incidence,Uganda,Both,All Ages,All causes,Number,2017,262963368.7,281347674.7,246206632.7
+Incidence,Uganda,Both,All Ages,All causes,Percent,2017,1,1,1
+Incidence,Uganda,Both,All Ages,All causes,Rate,2017,672912.6402,719957.3367,630032.8294
+Incidence,Ukraine,Both,All Ages,All causes,Number,2017,204596725.1,217155227.8,194064670.8
+Incidence,Ukraine,Both,All Ages,All causes,Percent,2017,1,1,1
+Incidence,Ukraine,Both,All Ages,All causes,Rate,2017,457822.5992,485924.5464,434255.201
+Incidence,United Arab Emirates,Both,All Ages,All causes,Number,2017,45413740.91,49417613.67,41944613.88
+Incidence,United Arab Emirates,Both,All Ages,All causes,Percent,2017,1,1,1
+Incidence,United Arab Emirates,Both,All Ages,All causes,Rate,2017,466542.7709,507675.2091,430903.8628
+Incidence,United Kingdom,Both,All Ages,All causes,Number,2017,349231571.3,371821281,327933931.4
+Incidence,United Kingdom,Both,All Ages,All causes,Percent,2017,1,1,1
+Incidence,United Kingdom,Both,All Ages,All causes,Rate,2017,524092.2485,557992.6535,492130.854
+Incidence,United States,Both,All Ages,All causes,Number,2017,1634016036,1739323930,1542324437
+Incidence,United States,Both,All Ages,All causes,Percent,2017,1,1,1
+Incidence,United States,Both,All Ages,All causes,Rate,2017,503023.3179,535441.804,474796.5372
+Incidence,Uruguay,Both,All Ages,All causes,Number,2017,15091830.87,16069645.57,14174112.32
+Incidence,Uruguay,Both,All Ages,All causes,Percent,2017,1,1,1
+Incidence,Uruguay,Both,All Ages,All causes,Rate,2017,441084.083,469662.3585,414262.2184
+Incidence,Uzbekistan,Both,All Ages,All causes,Number,2017,113507950.4,119390521.2,107672602.9
+Incidence,Uzbekistan,Both,All Ages,All causes,Percent,2017,1,1,1
+Incidence,Uzbekistan,Both,All Ages,All causes,Rate,2017,352105.7156,370353.6604,334004.2594
+Incidence,Vanuatu,Both,All Ages,All causes,Number,2017,1640671.032,1747250.275,1541739.34
+Incidence,Vanuatu,Both,All Ages,All causes,Percent,2017,1,1,1
+Incidence,Vanuatu,Both,All Ages,All causes,Rate,2017,570533.8014,607596.113,536130.8814
+Incidence,Venezuela,Both,All Ages,All causes,Number,2017,183459010.9,195103821,172700926.6
+Incidence,Venezuela,Both,All Ages,All causes,Percent,2017,1,1,1
+Incidence,Venezuela,Both,All Ages,All causes,Rate,2017,595032.9264,632801.8286,560140.0402
+Incidence,Vietnam,Both,All Ages,All causes,Number,2017,424170126,447484426.7,401709340.6
+Incidence,Vietnam,Both,All Ages,All causes,Percent,2017,1,1,1
+Incidence,Vietnam,Both,All Ages,All causes,Rate,2017,441197.1039,465447.284,417834.7008
+Incidence,"Virgin Islands, U.S.",Both,All Ages,All causes,Number,2017,544483.1272,575380.3122,514182.8482
+Incidence,"Virgin Islands, U.S.",Both,All Ages,All causes,Percent,2017,1,1,1
+Incidence,"Virgin Islands, U.S.",Both,All Ages,All causes,Rate,2017,518790.7957,548230.0461,489920.2851
+Incidence,Yemen,Both,All Ages,All causes,Number,2017,211459628.4,226539485.3,197284007.8
+Incidence,Yemen,Both,All Ages,All causes,Percent,2017,1,1,1
+Incidence,Yemen,Both,All Ages,All causes,Rate,2017,694467.8714,743992.5783,647912.8238
+Incidence,Zambia,Both,All Ages,All causes,Number,2017,113140745.8,120036273.5,106951186.5
+Incidence,Zambia,Both,All Ages,All causes,Percent,2017,1,1,1
+Incidence,Zambia,Both,All Ages,All causes,Rate,2017,651578.9719,691290.4023,615933.2222
+Incidence,Zimbabwe,Both,All Ages,All causes,Number,2017,86637606.07,91774602.06,81320754.35
+Incidence,Zimbabwe,Both,All Ages,All causes,Percent,2017,1,1,1
+Incidence,Zimbabwe,Both,All Ages,All causes,Rate,2017,588820.5284,623733.4124,552685.2798
