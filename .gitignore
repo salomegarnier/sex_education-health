@@ -5,3 +5,4 @@
 
 *.Rproj
 model.R
+.DS_Store
